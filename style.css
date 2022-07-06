@@ -45,8 +45,12 @@ body{
     list-style: none;  
 }
 .navegador__lista a{
+    transition: all 1s;
     color: aliceblue;
     text-decoration: none;
+}
+.navegador__lista a:hover{
+    color: green;
 }
 .navegador__lista__item{     
     font-family: 'Merienda One', cursive; 
@@ -180,7 +184,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
 }
-
 .maina__section:hover + .maina__carrusel{
     animation: carrousel 8s infinite;
 }
