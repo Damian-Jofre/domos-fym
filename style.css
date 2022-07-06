@@ -1,0 +1,639 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    background-color: black;
+    font-family: 'Merienda One', cursive; 
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}
+
+/* Comienza Header General */
+.header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+}
+.logo{      
+    width: 140px;      
+    border: solid 2px black;   
+    border-radius: 20px;
+    margin: 5px;
+}
+.encabezado__nuestroNombre{
+    font-family: 'Allison', cursive;
+    text-align: center;    
+    font-size: 40px;
+    color: white;
+}
+/* Cierre Header General */
+
+/* Comienza Navegador General */
+.navegador{
+    grid-area: navegador;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
+}
+.navegador__lista{ 
+    display: flex;
+    list-style: none;  
+}
+.navegador__lista a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navegador__lista__item{     
+    font-family: 'Merienda One', cursive; 
+    font-size: 20px;     
+    margin: 16px;  
+}
+/* Finaliza Navegador General */
+
+/* Comienza Footer General */
+.footer{
+    grid-area: footer;
+    margin-top: 10px;
+}
+.footer__div{    
+    color: rgb(74, 4, 139);
+    text-align: center;
+}
+.footer__section{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; 
+}
+.footer__div__firma{
+    font-family: 'Allison', cursive;
+    color: white;
+    font-size: 50px;
+}
+/* Nav */
+.footer__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer__lista__item img{     
+    margin: 5px;
+    width: 25px;
+}
+/* Finaliza Footer General */
+
+
+/* Empieza CSS particular de cada página */
+
+/* Comienza Index */
+/* Layout Index */
+.layout{    
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador" auto
+        "main" auto
+        "aside" auto
+        "footer" auto
+        ; 
+}
+/* Empieza Main */
+.main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__section h1{      
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;   
+}
+/* Finaliza Main Index*/
+/* Comienza Aside */
+.aside{
+    grid-area: aside;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+/* Boton */
+.aside__boton a{  
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.aside__boton{
+    background-color: aliceblue;
+    width: fit-content; 
+    text-align: center;
+    border: solid 3px rgb(77, 255, 0); 
+    border-radius: 20px;
+    padding: 10px; 
+}
+/* Finaliza Aside */
+/* Finaliza Index */
+
+
+/* Empieza Actividades */
+/* Layout Actividades */
+.layouta{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador"
+        "maina" auto        
+        "footer" auto 
+    ; 
+}
+/* Comienza Main Actividades*/
+.maina{
+    grid-area: maina;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.maina__carrusel{
+    text-align: center;
+    font-size: 30px;
+    width: 700px;
+    height: 300px;
+    margin: 15px auto;
+    border: solid 1px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.maina__section:hover + .maina__carrusel{
+    animation: carrousel 8s infinite;
+}
+@keyframes carrousel{
+    0%{
+        background-image: url(./Imagenes/actividades/19.jpg);       
+    }
+    25%{
+        background-image: url(./Imagenes/actividades/Desayunos-caseros.jpg);        
+    }
+    50%{
+        background-image: url(./Imagenes/actividades/Desayuno_maria_manuela.jpeg); 
+    }
+    75%{
+        background-image: url(./Imagenes/actividades/Yoga.jpg);
+    }
+    100%{
+        background-image: url(./Imagenes/actividades/Meditacion.jpg); 
+    }
+}
+.maina__yoga{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.maina__yoga__titulo{
+    width: 150px;
+    margin: 10px;
+}
+.maina__yoga__texto{
+    width: 200px;
+}
+.maina__yoga__imagen img{
+    width: 300px;
+    display: none;
+}
+.maina__meditacion{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.maina__meditacion__titulo{
+    width: 150px;
+    margin: 10px;
+} 
+.maina__meditacion__texto{
+    width: 200px;
+}
+.maina__meditacion__imagen img{
+    width: 300px;
+    display: none;
+}
+.maina__filo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.maina__filo__titulo{
+    width: 150px;
+    margin: 10px;
+}
+.maina__filo__texto{
+    width: 200px;
+}
+.maina__filo__imagen img{
+    width: 300px;
+    display: none;
+}
+/* Finaliza Actividades */
+
+/* Empieza Contacto */
+/* Empieza Layout */
+.layoutc{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador"
+        "mainc" auto
+        "mapa" auto       
+        "footer" auto 
+    ; 
+}
+/* Empieza Main Contacto*/
+.mainc{
+    grid-area: mainc;
+    border: solid 1px darkgoldenrod;
+    border-radius: 20px;
+    width: auto;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    color: darkgoldenrod;
+}
+.mainc__section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainc__mail{
+    color: aliceblue;
+}
+.mainc__section p{
+    margin: 15px;
+}
+.mainc__lista{
+    display: flex;
+    list-style-type: none;
+}
+/* Empieza Mapa */
+.mapac{
+    grid-area: mapa;
+    color: aliceblue;
+}
+.mapac__section__mapa{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapac__section__mapa iframe{
+    border-radius: 10px;
+    width: 1500px;
+    margin-bottom: 7px;
+}
+/* Finaliza Mapa */
+/* Finaliza Contacto */
+
+/* Empieza Filosofía */
+/* Layout Filosofía */
+.layoutf{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador" auto
+        "mainf" auto        
+        "footer" auto 
+    ; 
+}
+/* Empieza Main Filosofía */
+.mainf{
+    grid-area: mainf;
+    color: aliceblue;
+}
+.mainf__p{
+    margin: 5px;
+}
+.mainf__caras{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 20px;
+}
+.mainf__yf{
+    display: flex;
+    justify-content: space-around;
+}
+.mainf__yf img{
+    width: 300px;
+}
+/* Finaliza Filosofía */
+
+/* Empieza Galeria */
+/* Layout Galeria */
+.layoutg{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador" auto
+        "maing" auto        
+        "footer" auto 
+    ; 
+}
+/* Empieza Main Galeria*/
+.maing{
+    grid-area: maing;
+}
+.listag{
+    width: fit-content;
+    margin: 10px;
+    line-height: 2.2; 
+    letter-spacing: 5; 
+    word-spacing: 10; 
+    color: antiquewhite;   
+}
+.nombrec{
+    margin: 10px;
+    line-height: 2.2; 
+    letter-spacing: 5;    
+}
+.maing__section__div{
+    display: flex;
+    justify-content: space-around;
+}
+.maing__section__div__espejo{
+    display: flex;
+     justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.fotocabanas:hover{
+    transform: scale(1.1); 
+}
+.fotocabanas{
+    transition: all 1s;
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+/* Finaliza Galeria */
+
+/* Empieza Intercambio Cultural */
+.layoutic{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador"
+        "mainic" auto      
+        "footer" auto /
+        100%
+    ; 
+}
+/* Epieza Main I-C */
+.mainic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainic__p{
+    color: white;
+    font-size: 50px;
+    text-align: center; 
+    margin-bottom: 10px;   
+}
+.mainic__section{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;    
+}
+.mainic__section p{    
+    text-align: start;
+    line-height: 1.5;  
+    letter-spacing: 1px; 
+    word-spacing: 5px; 
+    margin: 15px;
+}
+.mainic__section__div img{    
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+/* Boton */
+.mainic__boton a{  
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.mainic__boton{
+    position: fixed;     
+    right: 50px;
+    bottom: 90px;
+    background-color: aliceblue;
+    width: fit-content; 
+    text-align: center;
+    border: solid 3px rgb(77, 255, 0); 
+    border-radius: 20px;
+    padding: 10px; 
+}
+/* Finaliza Intercambio Cultural */
+
+/* Comienza Media Querie */
+
+/* MEDIA 425px - Mobile */
+@media screen and (max-width: 425px){
+    /* Comienza Header General */
+    .header{
+        flex-direction: column;
+        width: auto;
+    }
+    .logo{      
+        width: 120px;      
+    }
+    /* Finaliza Header General */
+
+    /* Comienza Navegador General */
+    .navegador{
+        justify-content: center;
+        align-items: flex-start;
+        width: fit-content; 
+        height: fit-content;   
+    }
+    .navegador__lista__item{  
+        font-size: 10px;     
+        margin: 10px;   
+    }
+    /* Finaliza Navegador General */
+
+    /* Comienza Footer General */
+    .footer__section{
+        flex-direction: column;
+    }
+    /* Nav */
+    .footer__lista{
+        flex-direction: row;
+    }
+    .footer__lista{
+        display: flex;
+    }
+    /* Finaliza Footer General */
+
+    /* Empieza CSS particular de cada página */
+
+    /* Empieza index */
+    /* Main Index*/
+    .main{
+        width: auto;
+    }
+    .main__section h1{
+        text-align: center;
+    }
+    .main__section img{
+        width: 80vw;
+    }
+    .main__section h1{  
+        font-size: 10px;    
+    }
+    /* Finaliza Main Index*/
+    /* Comienza Aside */
+    /* Boton */
+    .aside__boton a{  
+        font-size: 18px;
+    }
+    .aside__boton{
+        margin-top: 10px;
+    }
+    /* Finaliza Aside */
+    /* Finaliza Index */
+
+    /* Empieza Actividades */
+    /* Main Contacto */
+    .maina__yoga{
+        flex-direction: column;
+    }
+    .maina__yoga__imagen img{
+        margin: 10px;
+        display: block;
+    }
+    .maina__meditacion{ 
+        flex-direction: column;
+    }
+    .maina__meditacion__imagen img{
+        margin: 10px;
+        display: block;
+    }
+    .maina__filo{
+        flex-direction: column;
+    }
+    .maina__filo__imagen img{
+        margin: 10px;
+        display: block;
+    }
+    .maina__carrusel{
+        display: none;
+    }
+    /* Finaliza Actividades */
+
+    /* Empieza Contacto */
+    /* Empieza Mapa */
+    .mapac__section__mapa iframe{
+        width: 250px;
+    }
+    /* Finaliza Mapa */
+    /* Finaliza Contacto */
+    
+    /* Empieza Filosofía */
+    /* Main Filosofía */
+    .mainf{
+        grid-area: mainf;
+        color: aliceblue;
+        width: auto;
+    }
+    .mainf__p{
+        margin: 5px;
+        font-size: 15px;
+    }
+    .mainf__caras{
+        margin: 10px;
+    }
+    .mainf__caras img{
+        width: 200px;
+    }
+    .mainf__yf{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .mainf__yf img{
+        width: 200px;
+    }
+    /* Finaliza Filosofía */
+
+    /* Empieza Galeria */
+    /* Main Galeria*/
+    .listag{
+        line-height: 1.5; 
+        letter-spacing: 3; 
+        word-spacing: 8;   
+    }
+    .nombrec{
+        line-height: 1.5; 
+        letter-spacing: 3;  
+    }
+    .maing__section__div{
+        flex-wrap: wrap;
+    }
+    .maing__section__div__espejo{
+        flex-wrap: wrap;
+    }
+    .fotocabanas{
+        margin: 10px;
+        width: 350px;
+        height: 200px;
+    }
+    /* Finaliza Galeria */
+
+
+    /* Empieza Intercambio Cultural */
+    /* Main I - C */
+    .mainic__p{
+        font-size: 30px;
+    }
+    .mainic__section{
+        flex-direction: column;
+    }
+    .mainic__section__div img{    
+        width: 200px;
+    }
+    /* Boton */
+    .mainic__boton a{  
+        font-size: 12px;
+    }
+    .mainic__boton{  
+        right: 5px;
+        bottom: 200px;
+        padding: 5px; 
+    }
+    /* Finaliza Intercambio Cultural */
+}
+
+
+
