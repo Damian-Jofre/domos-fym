@@ -102,6 +102,17 @@ body{
     /* Finaliza Footer General */
 
     /* Empieza Index */
+    /* Layout Index */
+    .layout{    
+        display: grid;
+        grid-template: 
+            "header" auto
+            "navegador" auto
+            "main" auto
+            "aside" auto
+            "footer" auto
+            ; 
+    }
     .container p{
         font-size: 20px;
     }
