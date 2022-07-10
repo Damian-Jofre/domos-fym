@@ -12,17 +12,12 @@ body{
     grid-area: header;
 }
 .section__header{
-    display: flex;
-    align-items: center;
     margin: 5px;
 }
 .section__header p{
     margin: 10px;
-    color: aliceblue;
     font-family: 'Allison', cursive;
-    text-align: center;    
     font-size: 40px;
-    color: white;
 }
 .logo{
     width: 140px;      
@@ -70,24 +65,19 @@ body{
     grid-area: main;
 }
 .container p{
-    text-align: center;
     font-size: 30px;
-    color: aliceblue;
     margin: 5px;
 }
 .height{
     height: 400px;
 }
-.row{
-    color: aliceblue;
-}
-.main__section__escribinos{
-    margin: 20px;
-}
 /* Finaliza Main Index */
 /* Comienza Aside Index */
 .aside{
     grid-area: aside;
+}
+.main__section__escribinos{
+    margin: 20px;
 }
 /* Finaliza Aside Index */
 /* Finaliza Index */
@@ -140,16 +130,12 @@ body{
     .firma{
         font-size: 40px;
     }
-    /* Nav */
-    .footer__lista{
-        display: flex;
-    }
     /* Finaliza Footer General */
 
     /* Empieza Index */
     /* Layout Index */
     .container p{
-        font-size: 20px;
+        font-size: 17px;
     }
     .height{
         height: 200px;
