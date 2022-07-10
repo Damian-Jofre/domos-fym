@@ -52,79 +52,72 @@
 <body class="layoutc">
     <!-- Comienza Header -->
     <header class="header">        
-        <div class="divlogo">
+        <section class="section__header">
             <a href="../index.html"><img src="../Imagenes/logo2.png" alt="logo de mi pagina" class="logo"></a>
-        </div> 
-        <div>
-            <p class="encabezado__nuestroNombre">
-                El jardín de la Ataraxia
-            </p>       
+            <p>El jardín de la ataraxia</p>    
+        </section>    
     </header>
     <!-- Finaliza Header -->
     
     <!-- Comienza Navegador -->
     <navegador class="navegador">
-        <nav class="navegador__nav">
-            <ul class="navegador__lista">
-                <li class="navegador__lista__item"><a href="../index.html">Inicio</a></li>
-                <li class="navegador__lista__item"><a href="./filosofia.html">Filosofía</a></li>
-                <li class="navegador__lista__item"><a href="./actividades.html">Actividades</a></li>
-                <li class="navegador__lista__item"><a href="./galeria.html">Galeria</a></li>
-                <li class="navegador__lista__item"><a href="./intercambio.cultural.html">Intercambio Cultural</a></li>
-                <li class="navegador__lista__item"><a href="#">Contacto</a></li>
-            </ul>
-        </nav>  
+        <nav class="navbar navbar-expand-lg bg-light">            
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" >              
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="./filosofia.html">Filosofía</a>
+                    <a class="nav-link" href="./actividades.html">Actividades</a>
+                    <a class="nav-link" href="./intercambio.cultural.html">Intercambio Cultural</a>
+                    <a class="nav-link" href="./galeria.html">Galería</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+         </nav>
     </navegador>
     <!-- Finaliza Navegador -->
 
     <!-- Comienza Main -->
     <main class="mainc">
-        <section class="mainc__section">
-            <p>
-                Cualquier pregunta que tengas no dudes en contactarnos a traves de cualquiera de nuestros canales
-            </p>
-            <p class="mainc__mail">
-                cabañasfym@gmail.com
-            </p>
-            <ul class="mainc__lista">
-                <li class="footer__lista__item"><a href="https://www.facebook.com"target="_blank"> <img src="../imagenes/facebook.png" alt="Facebook" class="redes"></a></li>
-                <li class="footer__lista__item"><a href="https://www.instagram.com"target="_blank"> <img src="../imagenes/instagram.png" alt="Instagram" class="redes"></a></li>
-                <li class="footer__lista__item"><a href="https://www.whatsapp.com"target="_blank"> <img src="../Imagenes/whatsapp.png" alt="Whastapp" class="redes"></a></li>
-            </ul>  
-        </section>
     </main>
     <!-- Finaliza Main -->
     
     <!-- Comienza Mapa -->
     <mapa class="mapac">
-        <section class="mapac__section__mapa">
-            <!-- Mapa -->
-           <h2>Ubicación</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.5407742585516!2d-65.03265289844174!3d-31.963479562703707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2d5983913ce17%3A0x30ac3ab21ff70c12!2sAl%20Pie%20Del%20Champaqui!5e1!3m2!1ses-419!2sar!4v1654732438941!5m2!1ses-419!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
     </mapa>
     <!-- Finaliza Mapa -->
 
     <!-- Comienza Footer -->
-    <footer class="footer">     
-        <section class="footer__section">
-            <div>
-                simbolo                
-            </div>
-            <div class="footer__div">                
-                <h4>Cabañas, Turismo, Retiros - Filosofía, Yoga y Meditación</h4>
-                <h4>Visitenos en:</h4>
-                <h5>Las Rosas, Traslasierra, Córdoba, Argentina</h5>
-                <div class="footer__div__firma">
-                    <p>¡Los esperamos!</p>
+    <footer class="footer border-top border-white border-2">     
+        <section class="container-fluid text-white mt-1"> 
+            <div class="row lh-1">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <P class="lh-lg">
+                        Cabañas, Turismo, Retiros <br>
+                        Filosofía, Yoga y Meditación
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                    <p class="lh-base">                
+                        Visitenos en: <br> Las Rosas, Traslasierra, Córdoba, Argentina                 
+                    </p>
+                    <p class= "fst-italic">
+                        ¡Los esperamos!
+                    </p> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <ul class="ul__footer d-flex align-items-end flex-column"> 
+                        <li><a href="https://www.facebook.com" target="_blank"> <img src="../Imagenes/redes/facebook.png" alt="Facebook" class="redes"></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"> <img src="../Imagenes/redes/instagram.png" alt="Instagram" class="redes"></a></li>
+                        <li><a href="https://www.whastapp.com" target="_blank"> <img src="../Imagenes/redes/whatsapp.png" alt="Whastapp" class="redes"></a></li>
+                    </ul>   
                 </div>
             </div>
-            <ul class="footer__lista">
-                <li class="footer__lista__item"><a href="https://www.facebook.com"target="_blank"> <img src="../imagenes/facebook.png" alt="Facebook" class="redes"></a></li>
-                <li class="footer__lista__item"><a href="https://www.instagram.com"target="_blank"> <img src="../imagenes/instagram.png" alt="Instagram" class="redes"></a></li>
-                <li class="footer__lista__item"><a href="https://www.whatsapp.com"target="_blank"> <img src="../Imagenes/whatsapp.png" alt="Whastapp" class="redes"></a></li>
-            </ul>  
-        </section>    
+        </section>
     </footer>
     <!-- Finaliza Footer -->     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> <!-- Siempre va dentro del body al final, permite usar java script -->

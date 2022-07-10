@@ -52,82 +52,67 @@
 <body class="layoutic">
     <!-- Comienza Header -->
     <header class="header">        
-        <div class="divlogo">
+        <section class="section__header">
             <a href="../index.html"><img src="../Imagenes/logo2.png" alt="logo de mi pagina" class="logo"></a>
-        </div> 
-        <div>
-            <p class="encabezado__nuestroNombre">
-                El jardín de la Ataraxia
-            </p>       
+            <p>El jardín de la ataraxia</p>    
+        </section>    
     </header>
     <!-- Finaliza Header -->
     
     <!-- Comienza Navegador -->
     <navegador class="navegador">
-        <nav class="navegador__nav">
-            <ul class="navegador__lista">
-                <li class="navegador__lista__item"><a href="../index.html">Inicio</a></li>
-                <li class="navegador__lista__item"><a href="./filosofia.html">Filosofía</a></li>
-                <li class="navegador__lista__item"><a href="./actividades.html">Actividades</a></li>
-                <li class="navegador__lista__item"><a href="./galeria.html">Galeria</a></li>
-                <li class="navegador__lista__item"><a href="#">Intercambio Cultural</a></li>
-                <li class="navegador__lista__item"><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>  
+        <nav class="navbar navbar-expand-lg bg-light">            
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" >              
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="./filosofia.html">Filosofía</a>
+                    <a class="nav-link" href="./actividades.html">Actividades</a>
+                    <a class="nav-link" href="#">Intercambio Cultural</a>
+                    <a class="nav-link" href="./galeria.html">Galería</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+         </nav>
     </navegador>
     <!-- Finaliza Navegador -->
 
     <!-- Comienza Main -->
     <main class="mainic">
-        <p class="mainic__p">
-            Un lugar para compartir
-        </p>
-        <section class="mainic__section">
-            <p>
-                Nuestra propuesta es un abrir un espacio para que todos puedan participar de nuestro lugar, por ello, con bases filosoficas abrimos nuestro jardín a cualquier persona que tenga ganas de cuidarlo, de charlar, como en algún momento lo abrio Epicuro, "un retiro para la vida en común y la meditación amistosa de unas personas dedicadas a filosofar” (García Gual 1996: 38).
-                En este jardín vos vas a poder venir a dar clases, talleres, tocar tu instrumento, pintar, cantar, o lo que sepas hacer, solo se te piden ganas y respesto por el lugar que habitamos. Tu propuesta será evaluada por nuestro equipo y nos comunicaremos para organizar fechas y formas del encuentro.
-                A cambio de tu ofrecimiento, nosotros te ofrecemos, descuentos en alojamiento y comida o incluso la posibildad de alojarte sin costos con nosotros, durante el tiempo que dure tu propuesta. 
-                No lu dudes, toda propuesta será bievenida, todos tenemos algo para ofrecer y compartir.
-                Esto nos permite enriquecernos culturalmente, generar movimiento y la posibildad de abrir nuestro espacio no solo por dinero, hay mucho para dar y para hacer y si lo hacemos juntos, sin duda, será mucho mejor.
-            </p>        
-        </section>
-        <div class="mainic__boton">
-            <a href="./contacto.html">Contactanos</a>
-        </div>
-        <section class="mainic__section">
-            <div class="mainic__section__div">
-                <img src="../imagenes/cultura/Cello.jpg" alt="Imagen">
-            </div>
-            <div class="mainic__section__div">
-                <img src="../imagenes/cultura/Guitarra.jpg" alt="Imagen">
-            </div>
-            <div class="mainic__section__div">
-                <img src="../imagenes/cultura/Pintura.jpg" alt="Imagen">
-            </div>
-        </section>
-    </main>
+     </main>
     <!-- Finaliza Main -->
 
     <!-- Comienza Footer -->
-    <footer class="footer">     
-        <section class="footer__section">
-            <div>
-                simbolo                
-            </div>
-            <div class="footer__div">                
-                <h4>Cabañas, Turismo, Retiros - Filosofía, Yoga y Meditación</h4>
-                <h4>Visitenos en:</h4>
-                <h5>Las Rosas, Traslasierra, Córdoba, Argentina</h5>
-                <div class="footer__div__firma">
-                    <p>¡Los esperamos!</p>
+    <footer class="footer border-top border-white border-2">     
+        <section class="container-fluid text-white mt-1"> 
+            <div class="row lh-1">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <P class="lh-lg">
+                        Cabañas, Turismo, Retiros <br>
+                        Filosofía, Yoga y Meditación
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                    <p class="lh-base">                
+                        Visitenos en: <br> Las Rosas, Traslasierra, Córdoba, Argentina                 
+                    </p>
+                    <p class= "fst-italic">
+                        ¡Los esperamos!
+                    </p> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <ul class="ul__footer d-flex align-items-end flex-column"> 
+                        <li><a href="https://www.facebook.com" target="_blank"> <img src="../Imagenes/redes/facebook.png" alt="Facebook" class="redes"></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"> <img src="../Imagenes/redes/instagram.png" alt="Instagram" class="redes"></a></li>
+                        <li><a href="https://www.whastapp.com" target="_blank"> <img src="../Imagenes/redes/whatsapp.png" alt="Whastapp" class="redes"></a></li>
+                    </ul>   
                 </div>
             </div>
-            <ul class="footer__lista">
-                <li class="footer__lista__item"><a href="https://www.facebook.com"target="_blank"> <img src="../imagenes/facebook.png" alt="Facebook" class="redes"></a></li>
-                <li class="footer__lista__item"><a href="https://www.instagram.com"target="_blank"> <img src="../imagenes/instagram.png" alt="Instagram" class="redes"></a></li>
-                <li class="footer__lista__item"><a href="https://www.whastapp.com"target="_blank"> <img src="../Imagenes/whatsapp.png" alt="Whastapp" class="redes"></a></li>
-            </ul>  
-        </section>    
+        </section>
     </footer>
     <!-- Finaliza Footer -->     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> <!-- Siempre va dentro del body al final, permite usar java script -->

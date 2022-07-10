@@ -8,6 +8,9 @@ body{
 }
 
 /* Empieza Header General */
+.header{
+    grid-area: header;
+}
 .section__header{
     display: flex;
     align-items: center;
@@ -29,7 +32,16 @@ body{
 }
 /* Finaliza Header General */
 
+/* Empieza Navegador General */
+.navegador{
+    grid-area: navegador;
+}
+/* Finaliza Navegador General */
+
 /* Comienza Footer General */
+.footer{
+    grid-area: footer;
+}
 .ul__footer{
     list-style: none;
 }
@@ -42,6 +54,21 @@ body{
 /* Enmpieza CSS particular de cada página */
 
 /* Empieza Index */
+/* Layout Index */
+.layout{    
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador" auto
+        "main" auto
+        "aside" auto
+        "footer" auto
+        ; 
+}
+/* Empieza Main Index */
+.main{
+    grid-area: main;
+}
 .container p{
     text-align: center;
     font-size: 30px;
@@ -51,7 +78,6 @@ body{
 .height{
     height: 400px;
 }
-/* Empieza Main Index */
 .row{
     color: aliceblue;
 }
@@ -59,9 +85,28 @@ body{
     margin: 20px;
 }
 /* Finaliza Main Index */
+/* Comienza Aside Index */
+.aside{
+    grid-area: aside;
+}
+/* Finaliza Aside Index */
 /* Finaliza Index */
 
 /* Empieza Galeria */
+/* Layout Galeria */
+.layoutg{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador" auto
+        "maing" auto        
+        "footer" auto 
+    ; 
+}
+/* Empieza Main Galeria*/
+.maing{
+    grid-area: maing;
+}
 .listag{
     width: fit-content;
     margin: 10px;
@@ -103,16 +148,6 @@ body{
 
     /* Empieza Index */
     /* Layout Index */
-    .layout{    
-        display: grid;
-        grid-template: 
-            "header" auto
-            "navegador" auto
-            "main" auto
-            "aside" auto
-            "footer" auto
-            ; 
-    }
     .container p{
         font-size: 20px;
     }
