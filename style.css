@@ -186,6 +186,16 @@ body{
     }
     /* Finaliza Index */
 
+    /* Empieza Actividades */
+    .btn{
+        margin: 1px;
+    }
+    .prueba2{
+        width: 300px;
+        height: 150px;
+    }
+    /* Finaliza Actividades */
+
     /* Galeria */
     .fotocabanas{
         height: 200px;
