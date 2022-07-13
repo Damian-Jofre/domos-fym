@@ -91,6 +91,12 @@ body{
 /* Finaliza Aside Index */
 /* Finaliza Index */
 
+/* Empieza Filosofía */
+.prueba img{
+    width: 300px;
+}
+/* Finaliza Filosofía */
+
 /* Empieza Galeria */
 /* Layout Galeria */
 .layoutg{
@@ -130,11 +136,27 @@ body{
 }
 /* Finzalia Galeria */
 
-/* Empieza Filosofía */
-.prueba img{
+/* Empieza I-C */
+/* Layout I-C */
+.layoutic{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador"
+        "mainic" auto      
+        "footer" auto /
+        100%
+    ; 
+}
+/* Epieza Main I-C */
+.mainic{
+    grid-area: mainic;
+}
+
+.ic img{
     width: 300px;
 }
-/* Finaliza Filosofía */
+/* Finaliza I-C */
 
 /* MEDIA 425px - Mobile */
 @media screen and (max-width: 425px){
@@ -169,4 +191,13 @@ body{
         height: 200px;
     }
     /* Finzalia Galeria */
+
+    /* Empieza I-C */    
+    .ic img{
+        width: 200px;
+        margin: 5px;
+    }
+    /* Finaliza I-C */
+
+
 }
