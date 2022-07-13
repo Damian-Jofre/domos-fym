@@ -91,7 +91,60 @@ body{
 /* Finaliza Aside Index */
 /* Finaliza Index */
 
+/* Empieza Actividades */
+/* Layout Actividades */
+.layouta{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador"
+        "maina" auto        
+        "footer" auto 
+    ; 
+}
+.maina{
+    grid-area: maina;
+}
+/* Finaliza Activdades */
+
+/* Empieza Contacto */
+/* Empieza Layout */
+.layoutc{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador"
+        "mainc" auto
+        "mapa" auto       
+        "footer" auto 
+    ; 
+}
+.mainc{
+    grid-area: mainc;
+}
+.solocel{
+    display: none;
+}
+.prueba3 img{
+    width: 300px;
+    height: 170px;    
+}
+/* Finaliza Contacto */
+
 /* Empieza Filosofía */
+/* Layout Filosofía */
+.layoutf{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "navegador" auto
+        "mainf" auto        
+        "footer" auto 
+    ; 
+}
+.mainf{
+    grid-area: mainf;
+}
 .prueba img{
     width: 300px;
 }
@@ -195,6 +248,23 @@ body{
         height: 150px;
     }
     /* Finaliza Actividades */
+
+    /* Empieza Contacto */
+    .mainc{
+        min-height: 70vh;
+    }
+    .solocel{
+        display: block;
+    }
+    .prueba3 img{
+        width: 300px;
+        height: 170px;    
+    }
+    .iframe{
+        width: 300px;
+        height: 200px;
+    } 
+    /* Finaliza Contacto */
 
     /* Galeria */
     .fotocabanas{
