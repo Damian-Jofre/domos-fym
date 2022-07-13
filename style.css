@@ -112,7 +112,6 @@ body{
     line-height: 2.2; 
     letter-spacing: 5; 
     word-spacing: 10; 
-    color: antiquewhite;   
 }
 .nombrec{
     margin: 10px;
@@ -131,6 +130,11 @@ body{
 }
 /* Finzalia Galeria */
 
+/* Empieza Filosofía */
+.prueba img{
+    width: 300px;
+}
+/* Finaliza Filosofía */
 
 /* MEDIA 425px - Mobile */
 @media screen and (max-width: 425px){
