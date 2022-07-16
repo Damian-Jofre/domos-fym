@@ -105,7 +105,7 @@ body{
 .maina{
     grid-area: maina;
 }
-/* Finaliza Activdades */
+/* Finaliza Actividades */
 
 /* Empieza Contacto */
 /* Empieza Layout */
@@ -150,6 +150,7 @@ body{
 }
 .prueba img{
     width: 300px;
+    margin-bottom: 10px;
 }
 /* Finaliza Filosofía */
 
@@ -211,6 +212,7 @@ body{
 
 .ic img{
     width: 300px;
+    margin-bottom: 10px;
 }
 /* Finaliza I-C */
 
@@ -268,6 +270,12 @@ body{
         height: 200px;
     } 
     /* Finaliza Contacto */
+
+    /* Empieza Filosofía */
+    .prueba img{
+        width: 280px;
+    }
+    /* Finaliza Filosofía */
 
     /* Galeria */
     .fotocabanas{
