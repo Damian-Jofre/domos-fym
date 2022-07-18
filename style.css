@@ -234,6 +234,10 @@ body{
     .ocultar{
         display: none;
     }
+    .centradocelular{
+        display: flex;
+        justify-content: center;    
+    }
     /* Comienza Header General */
     .logo{
         width: 100px;      
@@ -292,7 +296,7 @@ body{
 
     /* Empieza Filosofía */
     .prueba img{
-        width: 280px;
+        width: 250px;
     }
     /* Finaliza Filosofía */
 
