@@ -194,15 +194,33 @@ body{
     line-height: 2.2; 
     letter-spacing: 5;    
 }
-.fotocabanas:hover{
+/* .fotocabanas:hover{
     transform: scale(1.1); 
+} */
+.bordecabanas{
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
 }
-.fotocabanas{
-    transition: all 1s;
+.fotocabanas{    
     margin: 20px;
     border-radius: 10px;
     width: 500px;
     height: 300px;
+}
+.efectocabanas:hover{
+    transform: scale(1.1);     
+}
+.efectocabanas{
+    transition: all 1s;
+}
+.efectocabanas:hover + .textocabanas{
+    background-color: rgb(88, 81, 97);
+}
+.textocabanas{
+    height: 335px;
+    width: 500px;
+    transition: 2s;
+    border-radius: 10px;
 }
 /* Finzalia Galeria */
 
@@ -303,6 +321,12 @@ body{
     /* Galeria */
     .fotocabanas{
         height: 200px;
+    }
+    .textocabanas{
+        height: fit-content;
+        width: 300px;
+        transition: 2s;
+        border-radius: 10px;
     }
     /* Finzalia Galeria */
 
