@@ -1,0 +1,19 @@
+.footer{
+    grid-area: footer;
+    border-top: solid 2px;
+    border-color: $colorBordeFooter;   
+
+    &__section{
+        color: $colorTexto;
+        margin-top: 1px;
+    } 
+    &__redes{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }   
+}
+.bi{
+    color: $colorIconos;
+    margin: 5px;
+}

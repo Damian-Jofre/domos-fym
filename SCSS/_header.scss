@@ -1,0 +1,21 @@
+.header{
+    grid-area: header;
+}
+/* Empieza Nav */
+.logo{
+    width: 120px;      
+    border: solid 2px black;   
+    border-radius: 20px;
+}
+.textotitulo{
+    color: $colorTexto;    
+    font-family: 'Allison', cursive;
+    font-size: 3rem;
+    margin: 3px;
+}
+.nav-link{
+    color: $colorNavLink;
+}
+.navbar-nav .nav-link.active{
+    color: $colorNavActive;
+}
