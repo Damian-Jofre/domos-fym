@@ -1,10 +1,10 @@
 .footer{
     grid-area: footer;
     border-top: solid 2px;
-    border-color: $colorBordeFooter;   
+    border-color: map-get($colores, "colorBordeFooter" );   
 
     &__section{
-        color: $colorTexto;
+        color: map-get($colores, "colorTexto");
         margin-top: 1px;
     } 
     &__redes{
@@ -14,6 +14,6 @@
     }   
 }
 .bi{
-    color: $colorIconos;
+    color: map-get($colores, "colorIconos");
     margin: 5px;
 }

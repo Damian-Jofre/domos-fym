@@ -9,6 +9,10 @@ body {
 
 .header {
   grid-area: header; }
+  .header__nav {
+    border-bottom: solid 2px;
+    margin-bottom: 2px;
+    border-color: white; }
 
 /* Empieza Nav */
 .logo {
@@ -148,14 +152,12 @@ body {
   width: 500px;
   height: 300px; }
 
-.efectocabanas:hover {
-  transform: scale(1.1); }
-
 .efectocabanas {
   transition: all 1s; }
-
-.efectocabanas:hover + .textocabanas {
-  background-color: #585161; }
+  .efectocabanas:hover {
+    transform: scale(1.1); }
+  .efectocabanas:hover + .textocabanas {
+    background-color: #585161; }
 
 .textocabanas {
   height: 335px;

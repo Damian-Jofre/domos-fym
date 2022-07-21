@@ -1,5 +1,11 @@
 .header{
     grid-area: header;
+
+    &__nav{
+        border-bottom: solid 2px;
+        margin-bottom: 2px;
+        border-color: white;
+    }
 }
 /* Empieza Nav */
 .logo{
@@ -8,14 +14,14 @@
     border-radius: 20px;
 }
 .textotitulo{
-    color: $colorTexto;    
+    color: map-get($colores, "colorTexto");    
     font-family: 'Allison', cursive;
     font-size: 3rem;
     margin: 3px;
 }
 .nav-link{
-    color: $colorNavLink;
+    color: map-get($colores, "colorNavLink");    
 }
 .navbar-nav .nav-link.active{
-    color: $colorNavActive;
+    color: map-get($colores, "colorNavActive" );
 }

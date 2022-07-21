@@ -129,14 +129,14 @@
     width: 500px;
     height: 300px;
 }
-.efectocabanas:hover{
-    transform: scale(1.1);     
-}
 .efectocabanas{
     transition: all 1s;
-}
-.efectocabanas:hover + .textocabanas{
-    background-color: rgb(88, 81, 97);
+    &:hover{
+        transform: scale(1.1); 
+    }
+    &:hover + .textocabanas{
+        background-color: map-get($colores, "colorFondoTextoGaleria");
+    }
 }
 .textocabanas{
     height: 335px;
