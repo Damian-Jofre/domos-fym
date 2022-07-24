@@ -12,7 +12,8 @@ body {
   .header__nav {
     border-bottom: solid 2px;
     margin-bottom: 2px;
-    border-color: white; }
+    border-color: white;
+    align-items: flex-end; }
 
 /* Empieza Nav */
 .logo {
@@ -48,8 +49,6 @@ body {
   color: #f8cc69;
   margin: 5px; }
 
-/* Enmpieza CSS particular de cada página */
-/* Empieza Index */
 /* Layout Index */
 .layout {
   display: grid;
@@ -76,7 +75,6 @@ body {
 
 /* Finaliza Aside Index */
 /* Finaliza Index */
-/* Empieza Actividades */
 /* Layout Actividades */
 .layouta {
   display: grid;
@@ -86,7 +84,6 @@ body {
   grid-area: maina; }
 
 /* Finaliza Actividades */
-/* Empieza Contacto */
 /* Empieza Layout */
 .layoutc {
   display: grid;
@@ -106,7 +103,6 @@ body {
   grid-area: mapa; }
 
 /* Finaliza Contacto */
-/* Empieza Filosofía */
 /* Layout Filosofía */
 .layoutf {
   display: grid;
@@ -120,7 +116,6 @@ body {
   margin-bottom: 10px; }
 
 /* Finaliza Filosofía */
-/* Empieza Galeria */
 /* Layout Galeria */
 .layoutg {
   display: grid;
@@ -166,7 +161,6 @@ body {
   border-radius: 10px; }
 
 /* Finzalia Galeria */
-/* Empieza I-C */
 /* Layout I-C */
 .layoutic {
   display: grid;

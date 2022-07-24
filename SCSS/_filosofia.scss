@@ -1,0 +1,17 @@
+/* Layout Filosofía */
+.layoutf{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "mainf" auto        
+        "footer" auto 
+    ; 
+}
+.mainf{
+    grid-area: mainf;
+}
+.prueba img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+/* Finaliza Filosofía */

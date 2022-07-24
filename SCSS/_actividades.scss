@@ -1,0 +1,13 @@
+/* Layout Actividades */
+.layouta{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "maina" auto        
+        "footer" auto 
+    ; 
+}
+.maina{
+    grid-area: maina;
+}
+/* Finaliza Actividades */

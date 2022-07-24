@@ -1,0 +1,51 @@
+/* Layout Galeria */
+.layoutg{
+    display: grid;
+    grid-template: 
+        "header" auto
+        "maing" auto        
+        "footer" auto 
+    ; 
+}
+/* Empieza Main Galeria*/
+.maing{
+    grid-area: maing;
+}
+.listag{
+    width: fit-content;
+    margin: 10px;
+    line-height: 2.2; 
+    letter-spacing: 5; 
+    word-spacing: 10; 
+}
+.nombrec{
+    margin: 10px;
+    line-height: 2.2; 
+    letter-spacing: 5;    
+}
+.bordecabanas{
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.fotocabanas{    
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+.efectocabanas{
+    transition: all 1s;
+    &:hover{
+        transform: scale(1.1); 
+    }
+    &:hover + .textocabanas{
+        background-color: map-get($colores, "colorFondoTextoGaleria");
+    }
+}
+.textocabanas{
+    height: 335px;
+    width: 500px;
+    transition: 2s;
+    border-radius: 10px;
+}
+/* Finzalia Galeria */

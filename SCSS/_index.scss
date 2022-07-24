@@ -1,0 +1,40 @@
+/* Layout Index */
+.layout{    
+    display: grid;
+    grid-template: 
+        "header" auto
+        "main" auto
+        "aside" auto
+        "footer" auto
+        ; 
+}
+/* Empieza Main Index */
+.main{
+    grid-area: main;
+}
+.container p{
+    font-size: 2rem;
+    margin: 5px;
+}
+.height{
+    height: 400px;
+}
+/* Finaliza Main Index */
+/* Comienza Aside Index */
+.aside{
+    grid-area: aside;
+}
+.main__section__escribinos{
+    margin: 20px;
+}
+/* Finaliza Aside Index */
+/* Finaliza Index */
+
+
+
+
+
+
+
+
+

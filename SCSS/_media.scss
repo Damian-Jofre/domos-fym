@@ -1,0 +1,82 @@
+/* MEDIA 425px - Mobile */
+@media screen and (max-width: 425px){
+    .ocultar{
+        display: none;
+    }
+    .centradocelular{
+        display: flex;
+        justify-content: center;    
+    }
+    /* Comienza Header General */
+    .logo{
+        width: 100px;      
+        margin: 3px;
+    }
+    .logotexto{
+       width: 100%;
+       flex-direction: column; 
+    } 
+    /* Finaliza Header General */
+
+    /* Empieza Index */
+    /* Layout Index */
+    .container p{
+        font-size: 1rem;
+    }
+    .height{
+        height: 200px;
+    }
+    /* Finaliza Index */
+
+    /* Empieza Actividades */
+    .btn{
+        margin: 1px;
+    }
+    .prueba2{
+        width: 300px;
+        height: 150px;
+    }
+    /* Finaliza Actividades */
+
+    /* Empieza Contacto */
+    .mapac{
+        min-height: 35vh;
+    }
+    .solocel{
+        display: block;
+    }
+    .prueba3 img{
+        width: 300px;
+        height: 170px;    
+    }
+    .iframe{
+        width: 300px;
+        height: 200px;
+    } 
+    /* Finaliza Contacto */
+
+    /* Empieza Filosofía */
+    .prueba img{
+        width: 250px;
+    }
+    /* Finaliza Filosofía */
+
+    /* Galeria */
+    .fotocabanas{
+        height: 180px;
+    }
+    .textocabanas{
+        height: fit-content;
+        width: 250px;
+        transition: 2s;
+        border-radius: 10px;
+    }
+    /* Finzalia Galeria */
+
+    /* Empieza I-C */    
+    .ic img{
+        width: 200px;
+        margin: 5px;
+    }
+    /* Finaliza I-C */
+}
