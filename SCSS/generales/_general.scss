@@ -4,6 +4,6 @@
 }
 body{
     background-color: map-get($colores, "colorFondo");
-    font-family: 'Merienda One', cursive; 
+    font-family: map-get($tipografias, "tipoGeneral");
 }
 

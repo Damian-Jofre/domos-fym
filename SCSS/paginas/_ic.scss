@@ -1,3 +1,4 @@
+/* Empieza I-C */
 /* Layout I-C */
 .layoutic{
     display: grid;
@@ -11,10 +12,24 @@
 /* Epieza Main I-C */
 .mainic{
     grid-area: mainic;
+    &__section{
+        @extend %flexCenter;
+    }
+    &__boton{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+}
+.textoic{
+    @include texto(white,1rem)
 }
 
 .ic img{
     width: 300px;
     margin-bottom: 10px;
+}
+.botonic{
+    @include boton (35%, #141314, #52B352, #52B352, #FF0080, #00FF00)
 }
 /* Finaliza I-C */

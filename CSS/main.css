@@ -5,50 +5,71 @@
 
 body {
   background-color: black;
-  font-family: 'Merienda One', cursive; }
+  font-family: "Merienda One", cursive; }
 
+/* Empieza Header */
+/* Extends */
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+  display: flex;
+  justify-content: center; }
+
+/* Mixin */
 .header {
   grid-area: header; }
   .header__nav {
     border-bottom: solid 2px;
     margin-bottom: 2px;
-    border-color: white;
+    border-color: #00FF00;
     align-items: flex-end; }
 
-/* Empieza Nav */
 .logo {
   width: 120px;
   border: solid 2px black;
   border-radius: 20px; }
 
 .textotitulo {
-  color: aliceblue;
-  font-family: 'Allison', cursive;
+  color: #B35F89;
+  font-family: "Allison", cursive;
   font-size: 3rem;
   margin: 3px; }
 
 .nav-link {
-  color: #f8cc69; }
+  color: #B35F89; }
 
 .navbar-nav .nav-link.active {
-  color: #8989b6; }
+  color: #FF0080; }
 
+/* Finaliza Header */
+/* Extends */
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+  display: flex;
+  justify-content: center; }
+
+/* Mixin */
 .footer {
   grid-area: footer;
   border-top: solid 2px;
-  border-color: white; }
+  border-color: #00FF00; }
   .footer__section {
-    color: aliceblue;
+    color: #B35F89;
     margin-top: 1px; }
   .footer__redes {
-    display: flex;
-    justify-content: center;
     align-items: flex-end; }
 
+.texto1 {
+  display: flex; }
+
 .bi {
-  color: #f8cc69;
+  color: #B35F89;
   margin: 5px; }
 
+/* Empieza Index */
+/* Extends */
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+  display: flex;
+  justify-content: center; }
+
+/* Mixin */
 /* Layout Index */
 .layout {
   display: grid;
@@ -59,9 +80,12 @@ body {
   grid-area: main; }
 
 .container p {
+  color: #B35F89;
+  text-align: center;
   font-size: 2rem;
   margin: 5px; }
 
+/* Carrousel */
 .height {
   height: 400px; }
 
@@ -69,12 +93,34 @@ body {
 /* Comienza Aside Index */
 .aside {
   grid-area: aside; }
-
-.main__section__escribinos {
-  margin: 20px; }
+  .aside__section {
+    margin: 20px; }
+  .aside .boton {
+    transition: 0.15;
+    text-align: center;
+    font-size: 1,3rem;
+    font-family: 'Merienda One', cursive;
+    border-radius: 10px;
+    border: solid 1px;
+    width: 50%;
+    background-color: #F7F1F4;
+    border-color: #52B352;
+    padding: 7px;
+    color: #52B352;
+    text-decoration: none; }
+    .aside .boton:hover {
+      background-color: #00FF00;
+      color: #FF0080; }
 
 /* Finaliza Aside Index */
 /* Finaliza Index */
+/* Empieza Actividades */
+/* Extends */
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+  display: flex;
+  justify-content: center; }
+
+/* Mixin */
 /* Layout Actividades */
 .layouta {
   display: grid;
@@ -82,8 +128,11 @@ body {
 
 .maina {
   grid-area: maina; }
+  .maina__section {
+    margin: 1px; }
 
 /* Finaliza Actividades */
+/* Empieza contacto */
 /* Empieza Layout */
 .layoutc {
   display: grid;
@@ -102,7 +151,25 @@ body {
 .mapac {
   grid-area: mapa; }
 
+.boton {
+  transition: 0.15;
+  text-align: center;
+  font-size: 1,3rem;
+  font-family: 'Merienda One', cursive;
+  border-radius: 10px;
+  border: solid 1px;
+  width: 50%;
+  background-color: black;
+  border-color: #0dcaf0;
+  padding: 7px;
+  color: #0dcaf0;
+  text-decoration: none; }
+  .boton:hover {
+    background-color: #0dcaf0;
+    color: black; }
+
 /* Finaliza Contacto */
+/* Empieza filosofía */
 /* Layout Filosofía */
 .layoutf {
   display: grid;
@@ -111,11 +178,20 @@ body {
 .mainf {
   grid-area: mainf; }
 
+.textof {
+  text-align: center;
+  color: white;
+  font-size: 1rem; }
+
+.doscaras {
+  margin-bottom: 10px; }
+
 .prueba img {
   width: 300px;
   margin-bottom: 10px; }
 
 /* Finaliza Filosofía */
+/* Empieza Galeria */
 /* Layout Galeria */
 .layoutg {
   display: grid;
@@ -161,6 +237,7 @@ body {
   border-radius: 10px; }
 
 /* Finzalia Galeria */
+/* Empieza I-C */
 /* Layout I-C */
 .layoutic {
   display: grid;
@@ -169,10 +246,36 @@ body {
 /* Epieza Main I-C */
 .mainic {
   grid-area: mainic; }
+  .mainic__boton {
+    display: flex;
+    justify-content: center;
+    margin: 10px; }
+
+.textoic {
+  text-align: center;
+  color: white;
+  font-size: 1rem; }
 
 .ic img {
   width: 300px;
   margin-bottom: 10px; }
+
+.botonic {
+  transition: 0.15;
+  text-align: center;
+  font-size: 1,3rem;
+  font-family: 'Merienda One', cursive;
+  border-radius: 10px;
+  border: solid 1px;
+  width: 35%;
+  background-color: #141314;
+  border-color: #52B352;
+  padding: 7px;
+  color: #52B352;
+  text-decoration: none; }
+  .botonic:hover {
+    background-color: #00FF00;
+    color: #FF0080; }
 
 /* Finaliza I-C */
 /* MEDIA 425px - Mobile */
@@ -200,7 +303,7 @@ body {
   /* Empieza Actividades */
   .btn {
     margin: 1px; }
-  .prueba2 {
+  .carrosuelact {
     width: 300px;
     height: 150px; }
   /* Finaliza Actividades */

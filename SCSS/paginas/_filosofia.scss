@@ -1,3 +1,4 @@
+/* Empieza filosofía */
 /* Layout Filosofía */
 .layoutf{
     display: grid;
@@ -9,6 +10,13 @@
 }
 .mainf{
     grid-area: mainf;
+}
+.textof{
+    @include texto(white,1rem)
+}
+.doscaras{
+    @extend %flexCenter;
+    margin-bottom: 10px;
 }
 .prueba img{
     width: 300px;

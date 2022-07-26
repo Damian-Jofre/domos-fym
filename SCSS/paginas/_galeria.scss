@@ -1,3 +1,4 @@
+/* Empieza Galeria */
 /* Layout Galeria */
 .layoutg{
     display: grid;
@@ -35,6 +36,7 @@
 }
 .efectocabanas{
     transition: all 1s;
+    @extend %flexCenter;
     &:hover{
         transform: scale(1.1); 
     }
@@ -43,6 +45,7 @@
     }
 }
 .textocabanas{
+    @extend %flexCenter;
     height: 335px;
     width: 500px;
     transition: 2s;

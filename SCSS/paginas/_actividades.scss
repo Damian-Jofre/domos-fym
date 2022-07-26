@@ -1,3 +1,5 @@
+/* Empieza Actividades */
+@import "../base/extends-mixin";
 /* Layout Actividades */
 .layouta{
     display: grid;
@@ -8,6 +10,10 @@
     ; 
 }
 .maina{
-    grid-area: maina;
+    grid-area: maina;    
+    &__section{
+        @extend %flexCenter;
+        margin: 1px;        
+    }
 }
 /* Finaliza Actividades */

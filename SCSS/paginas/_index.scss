@@ -1,3 +1,5 @@
+/* Empieza Index */
+@import "../base/extends-mixin";
 /* Layout Index */
 .layout{    
     display: grid;
@@ -13,9 +15,12 @@
     grid-area: main;
 }
 .container p{
+    color: map-get($colores, "colorTitulo");
+    text-align: center;
     font-size: 2rem;
     margin: 5px;
 }
+/* Carrousel */
 .height{
     height: 400px;
 }
@@ -23,10 +28,14 @@
 /* Comienza Aside Index */
 .aside{
     grid-area: aside;
+    &__section{
+        margin: 20px;
+        @extend %flexCenter;
+    }
+.boton{
+    @include boton (50%, #F7F1F4, #52B352, #52B352, #FF0080, #00FF00)
 }
-.main__section__escribinos{
-    margin: 20px;
-}
+} 
 /* Finaliza Aside Index */
 /* Finaliza Index */
 
