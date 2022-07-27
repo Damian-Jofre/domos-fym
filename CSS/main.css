@@ -9,7 +9,7 @@ body {
 
 /* Empieza Header */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -41,7 +41,7 @@ body {
 
 /* Finaliza Header */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -52,7 +52,7 @@ body {
   border-color: #00FF00; }
   .footer__section {
     color: #B35F89;
-    margin-top: 1px; }
+    margin: 5px; }
   .footer__redes {
     align-items: flex-end; }
 
@@ -65,7 +65,7 @@ body {
 
 /* Empieza Index */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -79,7 +79,7 @@ body {
 .main {
   grid-area: main; }
 
-.container p {
+.container h1 {
   color: #B35F89;
   text-align: center;
   font-size: 2rem;
@@ -116,7 +116,7 @@ body {
 /* Finaliza Index */
 /* Empieza Actividades */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section {
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -210,7 +210,6 @@ body {
 
 .nombrec {
   margin: 10px;
-  line-height: 2.2;
   letter-spacing: 5; }
 
 .bordecabanas {
@@ -247,8 +246,6 @@ body {
 .mainic {
   grid-area: mainic; }
   .mainic__boton {
-    display: flex;
-    justify-content: center;
     margin: 10px; }
 
 .textoic {

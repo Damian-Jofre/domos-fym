@@ -7,7 +7,7 @@
 
     &__section{
         color: map-get($colores, "colorTexto");
-        margin-top: 1px;
+        margin: 5px
     } 
     &__redes{
         @extend %flexCenter;

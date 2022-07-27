@@ -14,7 +14,7 @@
 .main{
     grid-area: main;
 }
-.container p{
+.container h1{
     color: map-get($colores, "colorTitulo");
     text-align: center;
     font-size: 2rem;

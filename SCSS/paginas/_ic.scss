@@ -16,8 +16,7 @@
         @extend %flexCenter;
     }
     &__boton{
-        display: flex;
-        justify-content: center;
+        @extend %flexCenter;
         margin: 10px;
     }
 }
