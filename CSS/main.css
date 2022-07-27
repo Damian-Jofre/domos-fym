@@ -276,6 +276,12 @@ body {
 
 /* Finaliza I-C */
 /* MEDIA 425px - Mobile */
+/* Extends */
+.footer__redes, .aside__section, .maina__section, .botonenviar, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+  display: flex;
+  justify-content: center; }
+
+/* Mixin */
 @media screen and (max-width: 425px) {
   .ocultar {
     display: none; }
@@ -292,8 +298,8 @@ body {
   /* Finaliza Header General */
   /* Empieza Index */
   /* Layout Index */
-  .container p {
-    font-size: 1rem; }
+  .container h1 {
+    font-size: 1.2rem; }
   .height {
     height: 200px; }
   /* Finaliza Index */
@@ -307,6 +313,9 @@ body {
   /* Empieza Contacto */
   .mapac {
     min-height: 35vh; }
+  .centrado {
+    display: flex;
+    justify-content: center; }
   .solocel {
     display: block; }
   .prueba3 img {

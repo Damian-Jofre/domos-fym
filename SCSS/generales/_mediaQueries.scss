@@ -1,4 +1,6 @@
 /* MEDIA 425px - Mobile */
+@import "../base/extends-mixin";
+
 @media screen and (max-width: 425px){
     .ocultar{
         display: none;
@@ -20,8 +22,8 @@
 
     /* Empieza Index */
     /* Layout Index */
-    .container p{
-        font-size: 1rem;
+    .container h1{
+        font-size: 1.2rem;
     }
     .height{
         height: 200px;
@@ -41,6 +43,10 @@
     /* Empieza Contacto */
     .mapac{
         min-height: 35vh;
+    }
+    .centrado{
+        display: flex;
+        justify-content: center;
     }
     .solocel{
         display: block;
