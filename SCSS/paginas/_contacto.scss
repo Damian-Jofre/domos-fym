@@ -5,12 +5,15 @@
     grid-template: 
         "header" auto
         "mainc" auto
-        "mapa" auto       
+        /* "mapa" auto    */    
         "footer" auto 
     ; 
 }
 .mainc{
     grid-area: mainc;
+}
+.form{
+    @extend  %flexCenter;
 }
 .solocel{
     display: none;
@@ -22,9 +25,12 @@
 .botonenviar{
     @extend %flexCenter;
 }
-.mapac{
-    grid-area: mapa;
+.mapa{
+    @extend %flexCenter;
 }
+/* .mapac{
+    grid-area: mapa;
+} */
 .boton{
     @include boton (50%, black, #0dcaf0, #0dcaf0, black, #0dcaf0)
 }
