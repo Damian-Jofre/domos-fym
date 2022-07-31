@@ -68,8 +68,17 @@
     /* Finaliza Filosofía */
 
     /* Galeria */
+    .bordecabanas{
+        justify-content: center;
+    }
     .fotocabanas{
+        width: 250px;
         height: 180px;
+    }
+    .efectocabanas{
+        &:hover{
+            transform: scale(1); 
+        }
     }
     .textocabanas{
         height: fit-content;
