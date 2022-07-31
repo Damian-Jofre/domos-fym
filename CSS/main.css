@@ -276,7 +276,7 @@ body {
     color: #FF0080; }
 
 /* Finaliza I-C */
-/* MEDIA 425px - Mobile */
+/* MEDIA 426px - Mobile */
 /* Extends */
 .footer__redes, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
@@ -352,3 +352,24 @@ body {
     width: 200px;
     margin: 5px; }
   /* Finaliza I-C */ }
+
+/* MEDIA 769px - Tablet */
+@media screen and (max-width: 769px) {
+  .centradocelular {
+    display: flex;
+    justify-content: center; }
+  /* Comienza Header General */
+  .logotexto {
+    width: 100%;
+    flex-direction: column; }
+  .textotitulo {
+    width: 100%;
+    text-align: center; }
+  /* Finaliza Header General */
+  /* Empieza Footer General */
+  .footer__redes {
+    flex-direction: column; }
+  /* Finaliza Footer General */
+  /* Empieza Galeria */
+  .bordecabanas {
+    justify-content: center; } }
