@@ -2,6 +2,7 @@
 
 .footer{
     grid-area: footer;
+    background-color: map-get($colores, "colorFooter");
     border-top: solid 2px;
     border-color: map-get($colores, "colorBordeFooter" );  
 

@@ -4,54 +4,57 @@
   margin: 0; }
 
 body {
-  background-color: black;
+  background-color: white;
   font-family: "Merienda One", cursive; }
 
 /* Empieza Header */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
 /* Mixin */
 .header {
-  grid-area: header; }
+  grid-area: header;
+  background-color: #b6873f; }
   .header__nav {
     border-bottom: solid 2px;
     margin-bottom: 2px;
-    border-color: #00FF00;
+    border-color: #ebead8;
     align-items: flex-end; }
 
 .logo {
   width: 120px;
   border: solid 2px black;
+  border-color: #ebead8;
   border-radius: 20px; }
 
 .textotitulo {
-  color: #B35F89;
+  color: black;
   font-family: "Allison", cursive;
   font-size: 3rem;
   margin: 3px; }
 
 .nav-link {
-  color: #B35F89; }
+  color: black; }
 
 .navbar-nav .nav-link.active {
-  color: #FF0080; }
+  color: #ebead8; }
 
 /* Finaliza Header */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
 /* Mixin */
 .footer {
   grid-area: footer;
+  background-color: #b6873f;
   border-top: solid 2px;
-  border-color: #00FF00; }
+  border-color: #ebead8; }
   .footer__section {
-    color: #B35F89;
+    color: black;
     margin: 5px; }
   .footer__redes {
     align-items: flex-end; }
@@ -60,12 +63,12 @@ body {
   display: flex; }
 
 .bi {
-  color: #B35F89;
+  color: blue;
   margin: 5px; }
 
 /* Empieza Index */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -78,16 +81,21 @@ body {
 /* Empieza Main Index */
 .main {
   grid-area: main; }
+  .main__section {
+    display: flex;
+    align-items: center;
+    margin: 20px; }
+    .main__section__texto {
+      width: 800px;
+      margin: 10px; }
+    .main__section__carrusel {
+      width: 400px;
+      height: 400px; }
 
-.container h1 {
-  color: #B35F89;
-  text-align: center;
-  font-size: 2rem;
-  margin: 5px; }
-
-/* Carrousel */
-.height {
-  height: 400px; }
+.imgtamano {
+  border-radius: 5px;
+  width: 400px;
+  height: 350px; }
 
 /* Finaliza Main Index */
 /* Comienza Aside Index */
@@ -116,7 +124,7 @@ body {
 /* Finaliza Index */
 /* Empieza Actividades */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -278,12 +286,12 @@ body {
 /* Finaliza I-C */
 /* MEDIA 426px - Mobile */
 /* Extends */
-.footer__redes, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
 /* Mixin */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   .ocultar {
     display: none; }
   .centradocelular {
@@ -298,11 +306,11 @@ body {
     flex-direction: column; }
   /* Finaliza Header General */
   /* Empieza Index */
-  /* Layout Index */
-  .container h1 {
-    font-size: 1.2rem; }
-  .height {
-    height: 200px; }
+  .main__section {
+    flex-direction: column;
+    text-align: center; }
+    .main__section__texto {
+      width: auto; }
   /* Finaliza Index */
   /* Empieza Actividades */
   .btn {
@@ -326,7 +334,6 @@ body {
     width: 300px;
     height: 170px; }
   .iframe {
-    width: 300px;
     height: 200px; }
   /* Finaliza Contacto */
   /* Empieza Filosofía */
@@ -368,7 +375,7 @@ body {
   /* Finaliza Header General */
   /* Empieza Footer General */
   .footer__redes {
-    flex-direction: column; }
+    align-items: flex-start; }
   /* Finaliza Footer General */
   /* Empieza Galeria */
   .bordecabanas {

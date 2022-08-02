@@ -1,7 +1,7 @@
 /* MEDIA 426px - Mobile */
 @import "../base/extends-mixin";
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
     .ocultar{
         display: none;
     }
@@ -21,12 +21,14 @@
     /* Finaliza Header General */
 
     /* Empieza Index */
-    /* Layout Index */
-    .container h1{
-        font-size: 1.2rem;
-    }
-    .height{
-        height: 200px;
+    .main{
+        &__section{
+            flex-direction: column;
+            text-align: center;
+            &__texto{
+                width: auto;
+            }
+        }
     }
     /* Finaliza Index */
 
@@ -59,7 +61,6 @@
         height: 170px;    
     }
     .iframe{
-        width: 300px;
         height: 200px;
     } 
     /* Finaliza Contacto */
@@ -119,7 +120,7 @@
     /* Empieza Footer General */
     .footer{
         &__redes{
-            flex-direction: column;
+            align-items: flex-start;
         }      
     }
     /* Finaliza Footer General */
