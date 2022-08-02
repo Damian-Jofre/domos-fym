@@ -3,7 +3,24 @@
     display: flex;
     justify-content: center;
 }
-
+%dnone{
+    display: none;
+}
+%dblock{
+    display: block;
+}
+%actividades{
+    align-items: center;
+    border: solid 5px;
+    border-color: map-get($colores , "colorBordeActividades");
+    border-radius: 10px;
+    margin: 10px;
+}
+%textoa{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
 /* Mixin */
 @mixin texto ($color, $tamano){
     text-align: center; 
