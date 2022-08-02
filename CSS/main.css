@@ -273,6 +273,8 @@ body {
     background-color: blue; }
   .maina__section__texto {
     align-items: center;
+    border: solid 1px;
+    border-color: #b6873f;
     border-radius: 10px;
     width: 100%;
     height: 300px;
@@ -550,6 +552,12 @@ body {
     text-align: center; }
     .main__section__texto {
       width: auto; }
+    .main__section__carrusel {
+      width: 300px;
+      height: 300px; }
+  .imgtamano {
+    width: 300px;
+    height: 250px; }
   /* Finaliza Index */
   /* Empieza Actividades */
   .btn {
