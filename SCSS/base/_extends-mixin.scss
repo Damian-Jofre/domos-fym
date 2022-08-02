@@ -22,9 +22,9 @@
     width: 100%;
 }
 /* Mixin */
-@mixin texto ($color, $tamano){
+@mixin texto ($tamano){
     text-align: center; 
-    color: $color;
+    color: map-get($colores, "colorTextoCentral");
     font-size: $tamano;   
 }
 
