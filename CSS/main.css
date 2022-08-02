@@ -251,6 +251,19 @@ body {
 
 .mainc {
   grid-area: mainc; }
+  .mainc__h1 {
+    text-align: center;
+    margin: 5px; }
+  .mainc__section {
+    display: flex;
+    justify-content: center; }
+    .mainc__section__div a {
+      font-size: 3rem;
+      color: #b6873f;
+      margin: 5px; }
+      .mainc__section__div a .ic:hover {
+        transition: 0.2s;
+        color: #0dcaf0; }
 
 .solocel {
   display: none; }
@@ -442,7 +455,7 @@ body {
   /* Finaliza Actividades */
   /* Empieza Contacto */
   .mainc {
-    min-height: 75vh; }
+    min-height: 95vh; }
   /*     .mapac{
         min-height: 35vh;
     } */

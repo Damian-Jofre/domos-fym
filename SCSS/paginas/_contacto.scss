@@ -11,6 +11,23 @@
 }
 .mainc{
     grid-area: mainc;
+    &__h1{
+        text-align: center;
+        margin: 5px
+    }
+    &__section{
+        display: flex;
+        justify-content: center;
+        &__div a{
+            font-size: 3rem;
+            color: map-get($colores, "colorIconosContacto");
+            margin: 5px;
+            & .ic:hover{
+                transition: 0.2s;
+                color: map-get($colores, "colorHoverIconosContacto");
+            }
+        }
+    }
 }
 .form{
     @extend  %flexCenter;
