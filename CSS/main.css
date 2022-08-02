@@ -9,7 +9,7 @@ body {
 
 /* Empieza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -30,6 +30,19 @@ body {
   text-align: center;
   margin: 0;
   width: 100%; }
+
+.efectocabanas, .efectocabanas2, .efectocabanas3 {
+  margin: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  border: solid 1px;
+  background-size: cover;
+  transition: all 4s; }
+  .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
+    animation: carrousel 8s infinite; }
+  .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
+    background-color: #585161; }
 
 /* Mixin */
 .header {
@@ -61,7 +74,7 @@ body {
 
 /* Finaliza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -82,6 +95,19 @@ body {
   text-align: center;
   margin: 0;
   width: 100%; }
+
+.efectocabanas, .efectocabanas2, .efectocabanas3 {
+  margin: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  border: solid 1px;
+  background-size: cover;
+  transition: all 4s; }
+  .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
+    animation: carrousel 8s infinite; }
+  .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
+    background-color: #585161; }
 
 /* Mixin */
 .footer {
@@ -104,7 +130,7 @@ body {
 
 /* Empieza Index */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -125,6 +151,19 @@ body {
   text-align: center;
   margin: 0;
   width: 100%; }
+
+.efectocabanas, .efectocabanas2, .efectocabanas3 {
+  margin: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  border: solid 1px;
+  background-size: cover;
+  transition: all 4s; }
+  .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
+    animation: carrousel 8s infinite; }
+  .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
+    background-color: #585161; }
 
 /* Mixin */
 /* Layout Index */
@@ -178,7 +217,7 @@ body {
 /* Finaliza Index */
 /* Empieza Actividades */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -199,6 +238,19 @@ body {
   text-align: center;
   margin: 0;
   width: 100%; }
+
+.efectocabanas, .efectocabanas2, .efectocabanas3 {
+  margin: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  border: solid 1px;
+  background-size: cover;
+  transition: all 4s; }
+  .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
+    animation: carrousel 8s infinite; }
+  .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
+    background-color: #585161; }
 
 /* Mixin */
 /* Layout Actividades */
@@ -316,6 +368,43 @@ body {
 
 /* Finaliza Filosofía */
 /* Empieza Galeria */
+/* Extends */
+.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+  display: flex;
+  justify-content: center; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas {
+  display: none; }
+
+.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__meditacion .me {
+  display: block; }
+
+.maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
+  align-items: center;
+  border: solid 5px;
+  border-color: #b6873f;
+  border-radius: 10px;
+  margin: 10px; }
+
+.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.efectocabanas, .efectocabanas2, .efectocabanas3 {
+  margin: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  border: solid 1px;
+  background-size: cover;
+  transition: all 4s; }
+  .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
+    animation: carrousel 8s infinite; }
+  .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
+    background-color: #585161; }
+
+/* Mixin */
 /* Layout Galeria */
 .layoutg {
   display: grid;
@@ -330,37 +419,56 @@ body {
   margin: 10px;
   line-height: 2.2;
   letter-spacing: 5;
-  word-spacing: 10; }
+  word-spacing: 10;
+  color: blue; }
 
 .nombrec {
+  text-align: center;
+  color: red;
   margin: 10px;
   letter-spacing: 5; }
 
 .bordecabanas {
+  margin: 5px;
   display: flex;
-  border-top: solid 1px white;
-  border-bottom: solid 1px white; }
-
-.fotocabanas {
-  margin: 20px;
-  border-radius: 10px;
-  width: 500px;
-  height: 300px; }
-
-.efectocabanas {
-  transition: all 1s; }
-  .efectocabanas:hover {
-    transform: scale(1.1); }
-  .efectocabanas:hover + .textocabanas {
-    background-color: #585161; }
+  border-top: solid 1px black;
+  border-bottom: solid 1px black; }
 
 .textocabanas {
-  height: 335px;
+  margin: 20px;
+  height: 300px;
   width: 500px;
   transition: 2s;
   border-radius: 10px; }
 
-/* Finzalia Galeria */
+.efectocabanas {
+  background-image: url(../Imagenes/Cabanas/domo1.png); }
+
+@keyframes carrousel {
+  50% {
+    background-image: url("../Imagenes/Cabanas/interiori1.png"); }
+  100% {
+    background-image: url("../Imagenes/Cabanas/interioir1-2.png"); } }
+
+.efectocabanas2 {
+  background-image: url(../Imagenes/Cabanas/domo2.png); }
+
+@keyframes carrousel {
+  50% {
+    background-image: url("../Imagenes/Cabanas/interiori2.png"); }
+  100% {
+    background-image: url("../Imagenes/Cabanas/interiori2-2.png"); } }
+
+.efectocabanas3 {
+  background-image: url(../Imagenes/Cabanas/domo3.png); }
+
+@keyframes carrousel {
+  50% {
+    background-image: url("../Imagenes/Cabanas/interiori2.png"); }
+  100% {
+    background-image: url("../Imagenes/Cabanas/interiori2-2.png"); } }
+
+/* Finaliza Galería */
 /* Empieza I-C */
 /* Layout I-C */
 .layoutic {
@@ -402,7 +510,7 @@ body {
 /* Finaliza I-C */
 /* MEDIA 426px - Mobile */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .efectocabanas, .textocabanas, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -423,6 +531,19 @@ body {
   text-align: center;
   margin: 0;
   width: 100%; }
+
+.efectocabanas, .efectocabanas2, .efectocabanas3 {
+  margin: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  border: solid 1px;
+  background-size: cover;
+  transition: all 4s; }
+  .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
+    animation: carrousel 8s infinite; }
+  .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
+    background-color: #585161; }
 
 /* Mixin */
 @media screen and (max-width: 426px) {
