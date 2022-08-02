@@ -18,7 +18,7 @@
             @extend %dblock;
             @extend %textoa;
             &:hover{
-                display: none;
+                @extend %dnone;
                 & + .mente{
                     @extend %dblock;
                 }
@@ -36,7 +36,7 @@
                             background-image: url(../Imagenes/actividades/fondoFilo.png);
                             background-color: rgb(64, 0, 255);
                             & .pf{
-                                display: block;
+                                @extend %dblock;
                             }
                         }
                     }
@@ -51,7 +51,7 @@
             @extend %dblock;
             @extend %textoa;
             &:hover{
-                display: none;
+                @extend %dnone;
                 & + .cuerpo{
                     @extend %dblock;
                 }
@@ -71,7 +71,7 @@
                         background-color: rgb(64, 0, 255);
                         background-image: url(../Imagenes/actividades/fondoYoga.png);
                         & .py{
-                            display: block;
+                            @extend %dblock;
                         }
                     }
                 }
@@ -85,9 +85,9 @@
             @extend %dblock;
             @extend %textoa;
             &:hover{
-                display: none;
+                @extend %dnone;
                 & + .espiritu{
-                    display: block;
+                    @extend %dblock;
                 }
             }
         }
@@ -101,7 +101,7 @@
                     background-image: url(../Imagenes/actividades/fondoMeditacion.png);
                     background-color: blue;
                     & .pm{
-                        display: block
+                        @extend %dblock;
                     }
                 }
             }
@@ -112,7 +112,7 @@
         @extend %actividades;
         &:hover{
             & + .maina__section__texto .mas{
-                display: block;
+                @extend %dblock;
             }
         }
     }
@@ -136,5 +136,8 @@
             @extend %dnone;
         }
     }
+}
+.mobile{
+    @extend %dnone;
 }
 /* Finaliza Actividades */

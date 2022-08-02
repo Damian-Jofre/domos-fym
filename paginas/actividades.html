@@ -87,7 +87,7 @@
 
     <!-- Comienza Main -->
     <main class="maina">
-      <section class="container maina__section">
+      <section class="container maina__section ocultar">
         <section class="row justify-content-between">
           <div class="col-lg-2 col-md-6 col-sm-12 maina__section__filosofia">
             <p class="fi">
@@ -132,7 +132,8 @@
           </div>
         </section>
       </section>
-<!--       <section class="maina__section">
+      <!-- Vista Mobile -->
+      <section class="mobile">
         <p>
           <button class="btn btn-primary m-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Filosofía
@@ -146,6 +147,11 @@
         <p>
           <button class="btn btn-primary m-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemeditacion" aria-expanded="false" aria-controls="collapseExample">
               Meditación
+          </button>
+        </p>
+        <p>
+          <button class="btn btn-primary m-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMas" aria-expanded="false" aria-controls="collapseExample">
+              Mas...
           </button>
         </p>
       </section>
@@ -165,9 +171,14 @@
             Aca vamos a escribir algo de yoga
           </div>
         </div>
-      </section> -->
+        <div class="collapse" id="collapseMas">
+          <div class="card card-body">
+            Y Mas...
+          </div>
+        </div>
+      </section>
       <!-- Carrousel -->
-<!--       <div class="m-2">
+      <div class="m-2 mobile">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner d-flex justify-content-around">
             <div class="carousel-item active">
@@ -181,7 +192,7 @@
             </div>
           </div>
         </div>            
-      </div>  -->            
+      </div>            
     </main>
     <!-- Finaliza Main -->
 
