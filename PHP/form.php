@@ -18,5 +18,4 @@ $asunto = "Este mail fue enviado desde Domos Fym"
 /* A quien le mando el mail */
 mail($destinatario, $asunto, utf8_decode($mensaje), $header);
 /* Redirección al tocar enviar */
-header("Location:enviado.html");
-
+header("Location:../paginas/enviado.html");
