@@ -5,7 +5,6 @@
     grid-template: 
         "header" auto
         "mainc" auto
-        /* "mapa" auto    */    
         "footer" auto 
     ; 
 }
@@ -31,13 +30,10 @@
 }
 .form{
     @extend  %flexCenter;
+    margin: 2px;
 }
 .solocel{
-    display: none;
-}
-.prueba3 img{
-    width: 300px;
-    height: 170px;    
+    @extend %dnone
 }
 .botonenviar{
     @extend %flexCenter;
@@ -45,10 +41,11 @@
 .mapa{
     @extend %flexCenter;
 }
-/* .mapac{
-    grid-area: mapa;
-} */
-.boton{
+/* .boton{
     @include boton (50%, black, #0dcaf0, #0dcaf0, black, #0dcaf0)
 }
+.prueba3 img{
+    width: 300px;
+    height: 170px;    
+} */
 /* Finaliza Contacto */

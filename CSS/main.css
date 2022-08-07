@@ -9,27 +9,45 @@ body {
 
 /* Empieza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__filosofia .fi:hover, .maina__section__filosofia .mente, .maina__section__yoga .yo:hover, .maina__section__yoga .cuerpo, .maina__section__meditacion .me:hover, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
   display: none; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion .me, .maina__section__meditacion .me:hover + .espiritu, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
+.maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  align-items: center;
+  padding: 0.2rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  transition: 3s;
+  position: relative;
+  align-items: center;
+  cursor: pointer; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
-  text-align: center;
+.maina__section__filosofia .fi, .maina__section__yoga .yo, .maina__section__meditacion .me, .maina__section__varios .ma {
   margin: 0;
-  width: 100%; }
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__varios .masmas {
+  position: absolute;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
 
 .efectocabanas, .efectocabanas2, .efectocabanas3 {
   margin: 20px;
@@ -42,7 +60,7 @@ body {
   .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
     animation: carrousel 8s infinite; }
   .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
-    background-color: #585161; }
+    background-color: #b6873f; }
 
 /* Mixin */
 .header {
@@ -74,27 +92,45 @@ body {
 
 /* Finaliza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__filosofia .fi:hover, .maina__section__filosofia .mente, .maina__section__yoga .yo:hover, .maina__section__yoga .cuerpo, .maina__section__meditacion .me:hover, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
   display: none; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion .me, .maina__section__meditacion .me:hover + .espiritu, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
+.maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  align-items: center;
+  padding: 0.2rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  transition: 3s;
+  position: relative;
+  align-items: center;
+  cursor: pointer; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
-  text-align: center;
+.maina__section__filosofia .fi, .maina__section__yoga .yo, .maina__section__meditacion .me, .maina__section__varios .ma {
   margin: 0;
-  width: 100%; }
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__varios .masmas {
+  position: absolute;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
 
 .efectocabanas, .efectocabanas2, .efectocabanas3 {
   margin: 20px;
@@ -107,7 +143,7 @@ body {
   .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
     animation: carrousel 8s infinite; }
   .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
-    background-color: #585161; }
+    background-color: #b6873f; }
 
 /* Mixin */
 .footer {
@@ -130,27 +166,45 @@ body {
 
 /* Empieza Index */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__filosofia .fi:hover, .maina__section__filosofia .mente, .maina__section__yoga .yo:hover, .maina__section__yoga .cuerpo, .maina__section__meditacion .me:hover, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
   display: none; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion .me, .maina__section__meditacion .me:hover + .espiritu, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
+.maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  align-items: center;
+  padding: 0.2rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  transition: 3s;
+  position: relative;
+  align-items: center;
+  cursor: pointer; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
-  text-align: center;
+.maina__section__filosofia .fi, .maina__section__yoga .yo, .maina__section__meditacion .me, .maina__section__varios .ma {
   margin: 0;
-  width: 100%; }
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__varios .masmas {
+  position: absolute;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
 
 .efectocabanas, .efectocabanas2, .efectocabanas3 {
   margin: 20px;
@@ -163,7 +217,7 @@ body {
   .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
     animation: carrousel 8s infinite; }
   .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
-    background-color: #585161; }
+    background-color: #b6873f; }
 
 /* Mixin */
 /* Layout Index */
@@ -217,27 +271,45 @@ body {
 /* Finaliza Index */
 /* Empieza Actividades */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__filosofia .fi:hover, .maina__section__filosofia .mente, .maina__section__yoga .yo:hover, .maina__section__yoga .cuerpo, .maina__section__meditacion .me:hover, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
   display: none; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion .me, .maina__section__meditacion .me:hover + .espiritu, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
+.maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  align-items: center;
+  padding: 0.2rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  transition: 3s;
+  position: relative;
+  align-items: center;
+  cursor: pointer; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
-  text-align: center;
+.maina__section__filosofia .fi, .maina__section__yoga .yo, .maina__section__meditacion .me, .maina__section__varios .ma {
   margin: 0;
-  width: 100%; }
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__varios .masmas {
+  position: absolute;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
 
 .efectocabanas, .efectocabanas2, .efectocabanas3 {
   margin: 20px;
@@ -250,7 +322,7 @@ body {
   .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
     animation: carrousel 8s infinite; }
   .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
-    background-color: #585161; }
+    background-color: #b6873f; }
 
 /* Mixin */
 /* Layout Actividades */
@@ -260,17 +332,68 @@ body {
 
 .maina {
   grid-area: maina; }
+  .maina__carrusel {
+    margin-top: 10px; }
+  .maina__section__filosofia .fi {
+    opacity: 100%; }
+  .maina__section__filosofia .mente {
+    opacity: 0; }
+  .maina__section__filosofia:hover {
+    transform: rotateX(360deg); }
+    .maina__section__filosofia:hover .fi {
+      transition: 2s;
+      opacity: 0; }
+    .maina__section__filosofia:hover .mente {
+      transition: 4s;
+      opacity: 100%; }
   .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto {
-    background-image: url(../Imagenes/actividades/fondoFilo.png);
-    background-color: #4000ff; }
-  .maina__section__yoga:hover + .maina__section__filosofia {
-    background-image: url(../Imagenes/actividades/yoga1.png); }
+    background-color: #b6873f;
+    background-image: url(../Imagenes/actividades/fondoFilo.png); }
+  .maina__section__yoga .yo {
+    opacity: 100%; }
+  .maina__section__yoga .cuerpo {
+    opacity: 0; }
+  .maina__section__yoga:hover {
+    transform: rotateX(360deg); }
+    .maina__section__yoga:hover .yo {
+      transition: 2s;
+      opacity: 0; }
+    .maina__section__yoga:hover .cuerpo {
+      transition: 4s;
+      opacity: 100%; }
   .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto {
-    background-color: #4000ff;
+    background-color: #b6873f;
     background-image: url(../Imagenes/actividades/fondoYoga.png); }
+  .maina__section__meditacion .me {
+    opacity: 100%; }
+  .maina__section__meditacion .espiritu {
+    opacity: 0; }
+  .maina__section__meditacion:hover {
+    transform: rotateX(360deg); }
+    .maina__section__meditacion:hover .me {
+      transition: 2s;
+      opacity: 0; }
+    .maina__section__meditacion:hover .espiritu {
+      transition: 4s;
+      opacity: 100%; }
   .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto {
-    background-image: url(../Imagenes/actividades/fondoMeditacion.png);
-    background-color: blue; }
+    background-color: #b6873f;
+    background-image: url(../Imagenes/actividades/fondoMeditacion.png); }
+  .maina__section__varios .ma {
+    opacity: 100%; }
+  .maina__section__varios .masmas {
+    opacity: 0; }
+  .maina__section__varios:hover {
+    transform: rotateX(360deg); }
+    .maina__section__varios:hover .ma {
+      transition: 2s;
+      opacity: 0; }
+    .maina__section__varios:hover .masmas {
+      transition: 4s;
+      opacity: 100%; }
+  .maina__section__varios:hover + .maina__section__texto {
+    background-color: #b6873f;
+    background-image: url(../Imagenes/actividades/mas.png); }
   .maina__section__texto {
     align-items: center;
     border: solid 1px;
@@ -279,13 +402,18 @@ body {
     width: 100%;
     height: 300px;
     margin: 10px; }
+    .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas {
+      letter-spacing: .2rem;
+      word-spacing: 1rem;
+      line-height: 2rem;
+      font-weight: 200; }
 
 /* Finaliza Actividades */
 /* Empieza contacto */
 /* Empieza Layout */
 .layoutc {
   display: grid;
-  grid-template: "header" auto "mainc" auto "footer" auto; }
+  grid-template: "header" auto "mainc" auto "footer" auto; }
 
 .mainc {
   grid-area: mainc; }
@@ -303,33 +431,16 @@ body {
         transition: 0.2s;
         color: #0dcaf0; }
 
-.solocel {
-  display: none; }
+.form {
+  margin: 2px; }
 
-.prueba3 img {
-  width: 300px;
-  height: 170px; }
-
-/* .mapac{
-    grid-area: mapa;
+/* .boton{
+    @include boton (50%, black, #0dcaf0, #0dcaf0, black, #0dcaf0)
+}
+.prueba3 img{
+    width: 300px;
+    height: 170px;    
 } */
-.boton {
-  transition: 0.15;
-  text-align: center;
-  font-size: 1,3rem;
-  font-family: 'Merienda One', cursive;
-  border-radius: 10px;
-  border: solid 1px;
-  width: 50%;
-  background-color: black;
-  border-color: #0dcaf0;
-  padding: 7px;
-  color: #0dcaf0;
-  text-decoration: none; }
-  .boton:hover {
-    background-color: #0dcaf0;
-    color: black; }
-
 /* Finaliza Contacto */
 /* Empieza filosofía */
 /* Layout Filosofía */
@@ -339,6 +450,9 @@ body {
 
 .mainf {
   grid-area: mainf; }
+  .mainf__div img {
+    width: 300px;
+    margin-bottom: 10px; }
 
 .textof {
   text-align: center;
@@ -348,34 +462,48 @@ body {
 .doscaras {
   margin-bottom: 10px; }
 
-.prueba img {
-  width: 300px;
-  margin-bottom: 10px; }
-
 /* Finaliza Filosofía */
 /* Empieza Galeria */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__filosofia .fi:hover, .maina__section__filosofia .mente, .maina__section__yoga .yo:hover, .maina__section__yoga .cuerpo, .maina__section__meditacion .me:hover, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
   display: none; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion .me, .maina__section__meditacion .me:hover + .espiritu, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
+.maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  align-items: center;
+  padding: 0.2rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  transition: 3s;
+  position: relative;
+  align-items: center;
+  cursor: pointer; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
-  text-align: center;
+.maina__section__filosofia .fi, .maina__section__yoga .yo, .maina__section__meditacion .me, .maina__section__varios .ma {
   margin: 0;
-  width: 100%; }
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__varios .masmas {
+  position: absolute;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
 
 .efectocabanas, .efectocabanas2, .efectocabanas3 {
   margin: 20px;
@@ -388,7 +516,7 @@ body {
   .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
     animation: carrousel 8s infinite; }
   .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
-    background-color: #585161; }
+    background-color: #b6873f; }
 
 /* Mixin */
 /* Layout Galeria */
@@ -400,25 +528,26 @@ body {
 .maing {
   grid-area: maing; }
 
-.listag {
-  width: fit-content;
-  margin: 10px;
-  line-height: 2.2;
-  letter-spacing: 5;
-  word-spacing: 10;
-  color: blue; }
-
 .nombrec {
   text-align: center;
   color: red;
   margin: 10px;
   letter-spacing: 5; }
 
+.listag {
+  width: fit-content;
+  margin: 10px;
+  line-height: 2.2;
+  letter-spacing: 5;
+  word-spacing: 10;
+  color: black; }
+
 .bordecabanas {
   margin: 5px;
   display: flex;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black; }
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: black; }
 
 .textocabanas {
   margin: 20px;
@@ -459,7 +588,7 @@ body {
 /* Layout I-C */
 .layoutic {
   display: grid;
-  grid-template: "header" auto "mainic" auto       "footer" auto / 100%; }
+  grid-template: "header" auto "mainic" auto       "footer" auto; }
 
 /* Epieza Main I-C */
 .mainic {
@@ -494,29 +623,47 @@ body {
     color: #FF0080; }
 
 /* Finaliza I-C */
-/* MEDIA 426px - Mobile */
+/* MEDIA 500px - Mobile */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__filosofia .fi:hover, .maina__section__filosofia .mente, .maina__section__yoga .yo:hover, .maina__section__yoga .cuerpo, .maina__section__meditacion .me:hover, .maina__section__meditacion .espiritu, .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
   display: none; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .fi:hover + .mente, .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga .yo, .maina__section__yoga .yo:hover + .cuerpo, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion .me, .maina__section__meditacion .me:hover + .espiritu, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
+.maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  align-items: center;
+  padding: 0.2rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  transition: 3s;
+  position: relative;
+  align-items: center;
+  cursor: pointer; }
 
-.maina__section__filosofia .fi, .maina__section__filosofia .mente, .maina__section__yoga .yo, .maina__section__yoga .cuerpo, .maina__section__meditacion .me, .maina__section__meditacion .espiritu {
-  text-align: center;
+.maina__section__filosofia .fi, .maina__section__yoga .yo, .maina__section__meditacion .me, .maina__section__varios .ma {
   margin: 0;
-  width: 100%; }
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
+
+.maina__section__filosofia .mente, .maina__section__yoga .cuerpo, .maina__section__meditacion .espiritu, .maina__section__varios .masmas {
+  position: absolute;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b6873f;
+  letter-spacing: .3rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-transform: uppercase; }
 
 .efectocabanas, .efectocabanas2, .efectocabanas3 {
   margin: 20px;
@@ -529,15 +676,19 @@ body {
   .efectocabanas:hover, .efectocabanas2:hover, .efectocabanas3:hover {
     animation: carrousel 8s infinite; }
   .efectocabanas:hover + .textocabanas, .efectocabanas2:hover + .textocabanas, .efectocabanas3:hover + .textocabanas {
-    background-color: #585161; }
+    background-color: #b6873f; }
 
 /* Mixin */
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 500px) {
   .ocultar {
     display: none; }
   .centradocelular {
     display: flex;
     justify-content: center; }
+  .carposicion {
+    margin: 0%;
+    width: 280px;
+    height: 250px; }
   /* Comienza Header General */
   .logo {
     width: 100px;
@@ -564,10 +715,6 @@ body {
   .imgtamano {
     width: 280px;
     height: 250px; }
-  .carposicion {
-    margin: 0%;
-    width: 280px;
-    height: 250px; }
   /* Finaliza Main Index */
   /* Comienza Aside Index */
   .aside {
@@ -591,9 +738,6 @@ body {
   /* Empieza Contacto */
   .mainc {
     min-height: 95vh; }
-  /*     .mapac{
-        min-height: 35vh;
-    } */
   .centrado {
     display: flex;
     justify-content: center; }

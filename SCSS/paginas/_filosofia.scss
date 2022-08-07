@@ -10,16 +10,16 @@
 }
 .mainf{
     grid-area: mainf;
+    &__div img{
+        width: 300px;
+        margin-bottom: 10px;
+    }
 }
 .textof{
     @include texto(1rem)
 }
 .doscaras{
     @extend %flexCenter;
-    margin-bottom: 10px;
-}
-.prueba img{
-    width: 300px;
     margin-bottom: 10px;
 }
 /* Finaliza Filosofía */

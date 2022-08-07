@@ -5,8 +5,7 @@
     grid-template: 
         "header" auto
         "mainic" auto      
-        "footer" auto /
-        100%
+        "footer" auto
     ; 
 }
 /* Epieza Main I-C */
@@ -23,7 +22,6 @@
 .textoic{
     @include texto(1rem)
 }
-
 .ic img{
     width: 300px;
     margin-bottom: 10px;

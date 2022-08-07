@@ -1,13 +1,18 @@
-/* MEDIA 426px - Mobile */
+/* MEDIA 500px - Mobile */
 @import "../base/extends-mixin";
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 500px){
     .ocultar{
         display: none;
     }
     .centradocelular{
         display: flex;
         justify-content: center;    
+    }
+    .carposicion{
+        margin: 0%;
+        width: 280px;
+        height: 250px;
     }
     /* Comienza Header General */
     .logo{
@@ -44,11 +49,6 @@
         width: 280px;
         height: 250px;
     } 
-    .carposicion{
-        margin: 0%;
-        width: 280px;
-        height: 250px;
-    }
     /* Finaliza Main Index */
     /* Comienza Aside Index */
     .aside{
@@ -79,11 +79,8 @@
 
     /* Empieza Contacto */
     .mainc{
-        min-height: 95vh;
+         min-height: 95vh; 
     }
-/*     .mapac{
-        min-height: 35vh;
-    } */
     .centrado{
         display: flex;
         justify-content: center;

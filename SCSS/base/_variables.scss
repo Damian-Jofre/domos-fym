@@ -1,23 +1,35 @@
 $colores:(
+    /* Header */
     "colorHeader": #b6873f,
+    "colorNavLink": black,
+    "colorNavActive":#ebead8,
+    /* Footer */
     "colorFooter": #b6873f,
     "colorFondo": white,
+    "colorIconos":blue,
+    /* Galería */
+    "colorListaGaleria": black,
+    "colorNombreGaleria": red,
+    "colorFondoTextoGaleria": #b6873f,
+    "colorTextoCentral": black,
+    /* Contacto */
+    "colorIconosContacto": #b6873f, 
+    "colorHoverIconosContacto": #0dcaf0,
+    /* Actividades */
+    "colorFondoActividades":  #b6873f,
+    "colorActividades":  #b6873f,
+    "colorActividadesSombra": black,
+    "colorActividadesH": #b6873f,
+    /* Textos */
     "colorTexto": black,
     "colorTitulo":black,
-    "colorListaGaleria": blue,
-    "colorNombreGaleria": red,
-    "colorTextoCentral": black,
+    /* Bordes */
     "colorBoderHeader": #ebead8,
     "colorBordeLogo": #ebead8,
     "colorBordeFooter": #ebead8,
     "colorBordeActividades": #b6873f,
     "colorBordeTextoActividades": #b6873f,
-    "colorNavLink": black,
-    "colorNavActive":#ebead8,
-    "colorIconosContacto": #b6873f, 
-    "colorHoverIconosContacto": #0dcaf0,
-    "colorIconos":blue,
-    "colorFondoTextoGaleria": rgb(88, 81, 97)
+    "colorBordeCabanas": black,
 );
 
 $tipografias:(
