@@ -27,6 +27,7 @@
 
     /* Empieza Index */
     .main{
+        min-height: 75vh;
         width: 0 auto;
         &__section{
             flex-direction: column;
@@ -34,12 +35,15 @@
             &__texto{
                 width: auto;
                 margin: 5px;
+                margin-top: 20px;
                 text-align: center;
                 & h1{
-                    font-size: 15px;
+                    font-size: 1.5rem;
                 }
             }
             &__carrusel{
+                margin-top: 20px;
+                margin-bottom: 20px;
                 width: auto;
                 height: auto;
             }
@@ -62,15 +66,16 @@
     /* Finaliza Index */
 
     /* Empieza Actividades */
+    .maina{
+        min-height: 95vh;
+    }
     .btn{
         margin: 1px;
     }
-    .carrosuelact{
-        width: 300px;
-        height: 150px;
-    }
     .mobile{
         display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -79,7 +84,7 @@
 
     /* Empieza Contacto */
     .mainc{
-         min-height: 95vh; 
+         min-height: 150vh; 
     }
     .centrado{
         display: flex;
@@ -88,18 +93,16 @@
     .solocel{
         display: block;
     }
-    .prueba3 img{
-        width: 300px;
-        height: 170px;    
-    }
     .iframe{
         height: 200px;
     } 
     /* Finaliza Contacto */
 
     /* Empieza Filosofía */
-    .prueba img{
-        width: 250px;
+    .mainf{
+        &__div img{
+            width: 250px;
+        }
     }
     /* Finaliza Filosofía */
 
@@ -111,15 +114,7 @@
     .bordecabanas{
         justify-content: center;
     }
-    .efectocabanas{
-        width: 250px;
-        height: 180px;
-    }
-    .efectocabanas2{
-        width: 250px;
-        height: 180px;
-    }
-    .efectocabanas3{
+    .efectocabanas, .efectocabanas2, .efectocabanas3{
         width: 250px;
         height: 180px;
     }

@@ -9,11 +9,11 @@ body {
 
 /* Empieza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -92,11 +92,11 @@ body {
 
 /* Finaliza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -166,11 +166,11 @@ body {
 
 /* Empieza Index */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -271,11 +271,11 @@ body {
 /* Finaliza Index */
 /* Empieza Actividades */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -430,16 +430,33 @@ body {
       .mainc__section__div a .ic:hover {
         transition: 0.2s;
         color: #0dcaf0; }
+  .mainc__form {
+    width: auto;
+    margin: 2px;
+    background-color: #bab2b2; }
+    .mainc__form__form {
+      padding: 10px;
+      margin: 10px;
+      background-color: #c54444;
+      border-radius: 10px; }
 
-.form {
-  margin: 2px; }
+.botonC {
+  margin: 5px; }
 
-/* .boton{
-    @include boton (50%, black, #0dcaf0, #0dcaf0, black, #0dcaf0)
+.comentarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* .form{
+    @extend  %flexCenter;
+    margin: 2px;
 }
-.prueba3 img{
-    width: 300px;
-    height: 170px;    
+.solocel{
+    @extend %dnone
+}
+.botonenviar{
+    @extend %flexCenter;
 } */
 /* Finaliza Contacto */
 /* Empieza filosofía */
@@ -465,11 +482,11 @@ body {
 /* Finaliza Filosofía */
 /* Empieza Galeria */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -625,11 +642,11 @@ body {
 /* Finaliza I-C */
 /* MEDIA 500px - Mobile */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .form, .botonenviar, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .solocel {
+.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -699,6 +716,7 @@ body {
   /* Finaliza Header General */
   /* Empieza Index */
   .main {
+    min-height: 75vh;
     width: 0 auto; }
     .main__section {
       flex-direction: column;
@@ -706,10 +724,13 @@ body {
       .main__section__texto {
         width: auto;
         margin: 5px;
+        margin-top: 20px;
         text-align: center; }
         .main__section__texto h1 {
-          font-size: 15px; }
+          font-size: 1.5rem; }
       .main__section__carrusel {
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: auto;
         height: auto; }
   .imgtamano {
@@ -724,33 +745,31 @@ body {
   /* Finaliza Aside Index */
   /* Finaliza Index */
   /* Empieza Actividades */
+  .maina {
+    min-height: 95vh; }
   .btn {
     margin: 1px; }
-  .carrosuelact {
-    width: 300px;
-    height: 150px; }
   .mobile {
     display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
   /* Finaliza Actividades */
   /* Empieza Contacto */
   .mainc {
-    min-height: 95vh; }
+    min-height: 150vh; }
   .centrado {
     display: flex;
     justify-content: center; }
   .solocel {
     display: block; }
-  .prueba3 img {
-    width: 300px;
-    height: 170px; }
   .iframe {
     height: 200px; }
   /* Finaliza Contacto */
   /* Empieza Filosofía */
-  .prueba img {
+  .mainf__div img {
     width: 250px; }
   /* Finaliza Filosofía */
   /* Galeria */
@@ -759,13 +778,7 @@ body {
     padding: 0; }
   .bordecabanas {
     justify-content: center; }
-  .efectocabanas {
-    width: 250px;
-    height: 180px; }
-  .efectocabanas2 {
-    width: 250px;
-    height: 180px; }
-  .efectocabanas3 {
+  .efectocabanas, .efectocabanas2, .efectocabanas3 {
     width: 250px;
     height: 180px; }
   .textocabanas {
