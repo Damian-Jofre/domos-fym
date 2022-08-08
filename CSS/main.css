@@ -9,7 +9,7 @@ body {
 
 /* Empieza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .div__boton, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -92,7 +92,7 @@ body {
 
 /* Finaliza Header */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .div__boton, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -166,7 +166,7 @@ body {
 
 /* Empieza Index */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .div__boton, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -271,7 +271,7 @@ body {
 /* Finaliza Index */
 /* Empieza Actividades */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .div__boton, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -441,7 +441,22 @@ body {
       border-radius: 10px; }
 
 .botonC {
+  transition: 0.15;
+  text-align: center;
+  font-size: 1,3rem;
+  font-family: 'Merienda One', cursive;
+  border-radius: 10px;
+  border: solid 1px;
+  width: 50%;
+  background-color: #F7F1F4;
+  border-color: #52B352;
+  padding: 7px;
+  color: #52B352;
+  text-decoration: none;
   margin: 5px; }
+  .botonC:hover {
+    background-color: #00FF00;
+    color: #FF0080; }
 
 .comentarios {
   display: flex;
@@ -482,7 +497,7 @@ body {
 /* Finaliza Filosofía */
 /* Empieza Galeria */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .div__boton, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 
@@ -642,7 +657,7 @@ body {
 /* Finaliza I-C */
 /* MEDIA 500px - Mobile */
 /* Extends */
-.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
+.footer__redes, .main, .aside__section, .maina__carrusel, .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios, .maina__section__texto, .mainc__form, .div__boton, .mapa, .doscaras, .textocabanas, .efectocabanas, .efectocabanas2, .efectocabanas3, .mainic__section, .mainic__boton {
   display: flex;
   justify-content: center; }
 

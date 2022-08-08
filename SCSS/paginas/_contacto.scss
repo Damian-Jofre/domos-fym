@@ -40,8 +40,12 @@
         }
     }
 }
+.div__boton{
+    @extend  %flexCenter;
+}
 .botonC{
-    margin: 5px
+    @include boton (50%, #F7F1F4, #52B352, #52B352, #FF0080, #00FF00);
+    margin: 5px,
 }
 .comentarios{
     display: flex;
