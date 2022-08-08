@@ -5,10 +5,6 @@
     .ocultar{
         display: none;
     }
-    .centradocelular{
-        display: flex;
-        justify-content: center;    
-    }
     .carposicion{
         margin: 0%;
         width: 280px;
@@ -19,15 +15,10 @@
         width: 100px;      
         margin: 3px;
     }
-    .logotexto{
-       width: 100%;
-       flex-direction: column; 
-    } 
     /* Finaliza Header General */
 
     /* Empieza Index */
     .main{
-        min-height: 75vh;
         width: 0 auto;
         &__section{
             flex-direction: column;
@@ -43,7 +34,7 @@
             }
             &__carrusel{
                 margin-top: 20px;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 width: auto;
                 height: auto;
             }
@@ -62,12 +53,13 @@
         }
     } 
     /* Finaliza Aside Index */
-
     /* Finaliza Index */
 
     /* Empieza Actividades */
     .maina{
-        min-height: 95vh;
+        &__info{
+            font-size: 1rem;
+        }
     }
     .btn{
         margin: 1px;
@@ -77,14 +69,36 @@
         margin-top: 20px;
         margin-bottom: 20px;
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .mobileCarrousel{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     /* Finaliza Actividades */
 
     /* Empieza Contacto */
     .mainc{
-         min-height: 150vh; 
+        min-height: 110vh;
+        &__section{
+            &__div a{
+                font-size: 2rem;
+                margin: 3px;
+            }
+        }
+        &__form{
+            width: 100%;
+            margin: 1px;
+            &__form{
+                width: 90%;
+                padding: 5px;
+                margin: 5px;
+            }
+        }
     }
     .centrado{
         display: flex;
@@ -96,6 +110,15 @@
     .iframe{
         height: 200px;
     } 
+    .botonC{
+        margin: 2px,
+    }
+    .comentarios{
+        &__style{
+            width: 15rem;
+            height: 5rem
+        }
+    }
     /* Finaliza Contacto */
 
     /* Empieza Filosofía */
@@ -110,9 +133,6 @@
     .nombrec{
         margin: 2px;
         padding: 0;
-    }
-    .bordecabanas{
-        justify-content: center;
     }
     .efectocabanas, .efectocabanas2, .efectocabanas3{
         width: 250px;

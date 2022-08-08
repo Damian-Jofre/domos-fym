@@ -11,9 +11,16 @@
 }
 .maina{
     grid-area: maina;
+    min-height: 90vh;
     &__carrusel{
         @extend %flexCenter;
         margin-top: 10px
+    }
+    &__info{
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px auto;
+        width: 80%
     }
     &__section__filosofia{
         @extend %flexCenter;
@@ -164,6 +171,7 @@
         width: 100%;
         height: 300px;
         margin: 10px;
+        margin-top: 40px;
         & .pf, .py, .pm, .mas{
             letter-spacing: .2rem;
             word-spacing: 1rem;
@@ -176,5 +184,10 @@
 .mobile{
     @extend %dnone;
 }
-
+.mobileCarrousel{
+    @extend %dnone;
+}
+.accordion{
+    margin-top: 20px;
+}
 /* Finaliza Actividades */
