@@ -1,32 +1,38 @@
 /* Empieza Header */
 @import "../base/extends-mixin";
 
-.header{
+.header {
     grid-area: header;
     background-color: map-get($colores, "colorHeader");
-    &__nav{
+
+    &__nav {
         border-bottom: solid 2px;
         margin-bottom: 2px;
         border-color: map-get($colores, "colorBoderHeader");
         align-items: flex-end;
     }
 }
-.logo{
-    width: 120px;      
-    border: solid 2px black;   
+
+.logo {
+    width: 120px;
+    border: solid 2px black;
     border-color: map-get($colores, "colorBordeLogo");
     border-radius: 20px;
 }
-.textotitulo{
-    color: map-get($colores, "colorTexto");    
+
+.textotitulo {
+    color: map-get($colores, "colorTexto");
     font-family: map-get($tipografias, "tipoTitulo");
     font-size: 3rem;
     margin: 3px;
 }
-.nav-link{
-    color: map-get($colores, "colorNavLink");    
+
+.nav-link {
+    color: map-get($colores, "colorNavLink");
 }
-.navbar-nav .nav-link.active{
-    color: map-get($colores, "colorNavActive" );
+
+.navbar-nav .nav-link.active {
+    color: map-get($colores, "colorNavActive");
 }
+
 /* Finaliza Header */

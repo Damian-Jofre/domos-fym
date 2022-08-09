@@ -1,57 +1,68 @@
 /* Empieza Actividades */
 @import "../base/extends-mixin";
+
 /* Layout Actividades */
-.layouta{
+.layouta {
     display: grid;
-    grid-template: 
+    grid-template:
         "header" auto
-        "maina" auto        
-        "footer" auto 
-    ; 
+        "maina" auto 
+        "footer" auto;
 }
-.maina{
+
+.maina {
     grid-area: maina;
     min-height: 90vh;
-    &__carrusel{
+
+    &__carrusel {
         @extend %flexCenter;
         margin-top: 10px
     }
-    &__info{
+
+    &__info {
         text-align: center;
         font-size: 1.5rem;
         margin: 20px auto;
         width: 80%
     }
-    &__section__filosofia{
+
+    &__section__filosofia {
         @extend %flexCenter;
         @extend %actividades;
-        & .fi{
+
+        & .fi {
             opacity: 100%;
             @extend %textoa;
         }
-        & .mente{
+
+        & .mente {
             opacity: 0;
             @extend %textob;
         }
-        &:hover{
+
+        &:hover {
             transform: rotateX(360deg);
-            & .fi{
+
+            & .fi {
                 transition: 2s;
                 opacity: 0;
             }
-            & .mente{
+
+            & .mente {
                 transition: 4s;
                 opacity: 100%;
             }
         }
-        &:hover{
-            & + .maina__section__yoga{
-                & + .maina__section__meditacion{
-                    & + .maina__section__varios{                       
-                        & + .maina__section__texto{
+
+        &:hover {
+            &+.maina__section__yoga {
+                &+.maina__section__meditacion {
+                    &+.maina__section__varios {
+                        &+.maina__section__texto {
                             background-color: map-get($colores, "colorFondoActividades");
                             background-image: url(../Imagenes/actividades/fondoFilo.png);
-                            & .pf{
+
+                            & .pf {
                                 @extend %dblock;
                             }
                         }
@@ -60,35 +71,43 @@
             }
         }
     }
-    &__section__yoga{
+
+    &__section__yoga {
         @extend %flexCenter;
         @extend %actividades;
-        & .yo{
+
+        & .yo {
             opacity: 100%;
             @extend %textoa;
         }
-        & .cuerpo{
+
+        & .cuerpo {
             opacity: 0;
             @extend %textob;
         }
-        &:hover{
+
+        &:hover {
             transform: rotateX(360deg);
-            & .yo{
+
+            & .yo {
                 transition: 2s;
                 opacity: 0;
             }
-            & .cuerpo{
+
+            & .cuerpo {
                 transition: 4s;
                 opacity: 100%;
             }
         }
-        &:hover{
-            & + .maina__section__meditacion{
-                & + .maina__section__varios{
-                    & + .maina__section__texto{
+
+        &:hover {
+            &+.maina__section__meditacion {
+                &+.maina__section__varios {
+                    &+.maina__section__texto {
                         background-color: map-get($colores, "colorFondoActividades");
                         background-image: url(../Imagenes/actividades/fondoYoga.png);
-                        & .py{
+
+                        & .py {
                             @extend %dblock;
                         }
                     }
@@ -96,73 +115,90 @@
             }
         }
     }
-    &__section__meditacion{
+
+    &__section__meditacion {
         @extend %flexCenter;
         @extend %actividades;
-        & .me{
+
+        & .me {
             opacity: 100%;
             @extend %textoa;
         }
-        & .espiritu{
+
+        & .espiritu {
             opacity: 0;
             @extend %textob;
         }
-        &:hover{
+
+        &:hover {
             transform: rotateX(360deg);
-            & .me{
+
+            & .me {
                 transition: 2s;
                 opacity: 0;
             }
-            & .espiritu{
+
+            & .espiritu {
                 transition: 4s;
                 opacity: 100%;
             }
         }
-        &:hover{
-            & + .maina__section__varios{
-                & + .maina__section__texto{
+
+        &:hover {
+            &+.maina__section__varios {
+                &+.maina__section__texto {
                     background-color: map-get($colores, "colorFondoActividades");
                     background-image: url(../Imagenes/actividades/fondoMeditacion.png);
-                    & .pm{
+
+                    & .pm {
                         @extend %dblock;
                     }
                 }
             }
         }
     }
-    &__section__varios{
+
+    &__section__varios {
         @extend %flexCenter;
         @extend %actividades;
-        & .ma{
+
+        & .ma {
             opacity: 100%;
             @extend %textoa;
         }
-        & .masmas{
+
+        & .masmas {
             opacity: 0;
             @extend %textob;
         }
-        &:hover{
+
+        &:hover {
             transform: rotateX(360deg);
-            & .ma{
+
+            & .ma {
                 transition: 2s;
                 opacity: 0;
             }
-            & .masmas{
+
+            & .masmas {
                 transition: 4s;
                 opacity: 100%;
             }
         }
-        &:hover{
-            & + .maina__section__texto{
+
+        &:hover {
+            &+.maina__section__texto {
                 background-color: map-get($colores, "colorFondoActividades");
                 background-image: url(../Imagenes/actividades/mas.png);
-                & .mas{
+
+                & .mas {
                     @extend %dblock;
                 }
             }
         }
     }
-    &__section__texto{
+
+    &__section__texto {
         @extend %flexCenter;
         align-items: center;
         border: solid 1px;
@@ -172,7 +208,11 @@
         height: 300px;
         margin: 10px;
         margin-top: 40px;
-        & .pf, .py, .pm, .mas{
+
+        & .pf,
+        .py,
+        .pm,
+        .mas {
             letter-spacing: .2rem;
             word-spacing: 1rem;
             line-height: 2rem;
@@ -181,13 +221,17 @@
         }
     }
 }
-.mobile{
+
+.mobile {
     @extend %dnone;
 }
-.mobileCarrousel{
+
+.mobileCarrousel {
     @extend %dnone;
 }
-.accordion{
+
+.accordion {
     margin-top: 20px;
 }
+
 /* Finaliza Actividades */

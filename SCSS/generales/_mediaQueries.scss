@@ -1,38 +1,45 @@
 /* MEDIA 500px - Mobile */
 @import "../base/extends-mixin";
 
-@media screen and (max-width: 500px){
-    .ocultar{
+@media screen and (max-width: 500px) {
+    .ocultar {
         display: none;
     }
-    .carposicion{
+
+    .carposicion {
         margin: 0%;
         width: 280px;
         height: 250px;
     }
+
     /* Comienza Header General */
-    .logo{
-        width: 100px;      
+    .logo {
+        width: 100px;
         margin: 3px;
     }
+
     /* Finaliza Header General */
 
     /* Empieza Index */
-    .main{
+    .main {
         width: 0 auto;
-        &__section{
+
+        &__section {
             flex-direction: column;
-            margin: 2px; 
-            &__texto{
+            margin: 2px;
+
+            &__texto {
                 width: auto;
                 margin: 5px;
                 margin-top: 20px;
                 text-align: center;
-                & h1{
+
+                & h1 {
                     font-size: 1.5rem;
                 }
             }
-            &__carrusel{
+
+            &__carrusel {
                 margin-top: 20px;
                 margin-bottom: 10px;
                 width: auto;
@@ -40,38 +47,35 @@
             }
         }
     }
-    .imgtamano{
+
+    .imgtamano {
         width: 280px;
         height: 250px;
-    } 
+    }
+
     /* Finaliza Main Index */
-    /* Comienza Aside Index */
-    .aside{
-        grid-area: aside;
-        &__section{
-            margin: 20px;
-        }
-    } 
-    /* Finaliza Aside Index */
     /* Finaliza Index */
 
     /* Empieza Actividades */
-    .maina{
-        &__info{
+    .maina {
+        &__info {
             font-size: 1rem;
         }
     }
-    .btn{
+
+    .btn {
         margin: 1px;
     }
-    .mobile{
+
+    .mobile {
         display: block;
         margin-top: 20px;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
     }
-    .mobileCarrousel{
+
+    .mobileCarrousel {
         display: block;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -79,107 +83,128 @@
         flex-direction: column;
         align-items: center;
     }
+
     /* Finaliza Actividades */
 
     /* Empieza Contacto */
-    .mainc{
+    .mainc {
         min-height: 110vh;
-        &__section{
-            &__div a{
+
+        &__section {
+            &__div a {
                 font-size: 2rem;
                 margin: 3px;
             }
         }
-        &__form{
-            width: 100%;
-            margin: 1px;
-            &__form{
-                width: 90%;
+
+        &__form {
+            width: 98%;
+            margin: 0 auto;
+
+            &__form {
+                width: 85%;
                 padding: 5px;
                 margin: 5px;
             }
         }
     }
-    .centrado{
+
+    .centrado {
         display: flex;
         justify-content: center;
     }
-    .solocel{
+
+    .solocel {
         display: block;
     }
-    .iframe{
+
+    .iframe {
         height: 200px;
-    } 
-    .botonC{
+    }
+
+    .botonC {
         margin: 2px,
     }
-    .comentarios{
-        &__style{
+
+    .comentarios {
+        &__style {
             width: 15rem;
             height: 5rem
         }
     }
+
     /* Finaliza Contacto */
 
     /* Empieza Filosofía */
-    .mainf{
-        &__div img{
+    .mainf {
+        &__div img {
             width: 250px;
         }
     }
+
     /* Finaliza Filosofía */
 
     /* Galeria */
-    .nombrec{
+    .nombrec {
         margin: 2px;
         padding: 0;
     }
-    .efectocabanas, .efectocabanas2, .efectocabanas3{
+
+    .efectocabanas,
+    .efectocabanas2,
+    .efectocabanas3 {
         width: 250px;
         height: 180px;
     }
-    .textocabanas{
+
+    .textocabanas {
         height: fit-content;
         width: 250px;
         transition: 2s;
     }
+
     /* Finzalia Galeria */
 
-    /* Empieza I-C */    
-    .ic img{
+    /* Empieza I-C */
+    .ic img {
         width: 200px;
         margin: 5px;
     }
+
     /* Finaliza I-C */
 }
 
 /* MEDIA 769px - Tablet */
-@media screen and (max-width: 769px){
-    .centradocelular{
+@media screen and (max-width: 769px) {
+    .centradocelular {
         display: flex;
-        justify-content: center;    
+        justify-content: center;
     }
+
     /* Comienza Header General */
-    .logotexto{
+    .logotexto {
         width: 100%;
-        flex-direction: column; 
-    } 
-    .textotitulo{
+        flex-direction: column;
+    }
+
+    .textotitulo {
         width: 100%;
         text-align: center;
     }
+
     /* Finaliza Header General */
 
     /* Empieza Footer General */
-    .footer{
-        &__redes{
+    .footer {
+        &__redes {
             align-items: flex-start;
-        }      
+        }
     }
+
     /* Finaliza Footer General */
 
     /* Empieza Galeria */
-    .bordecabanas{
+    .bordecabanas {
         justify-content: center;
     }
 }

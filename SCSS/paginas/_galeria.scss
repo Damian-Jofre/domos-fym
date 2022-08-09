@@ -1,40 +1,44 @@
 /* Empieza Galeria */
 @import "../base/extends-mixin";
+
 /* Layout Galeria */
-.layoutg{
+.layoutg {
     display: grid;
-    grid-template: 
+    grid-template:
         "header" auto
-        "maing" auto        
-        "footer" auto 
-    ; 
+        "maing" auto "footer" auto;
 }
+
 /* Empieza Main Galeria*/
-.maing{
+.maing {
     grid-area: maing;
 }
-.nombrec{
+
+.nombrec {
     text-align: center;
     color: map-get($colores, "colorNombreGaleria");
     margin: 10px;
-    letter-spacing: 5;    
+    letter-spacing: 5;
 }
-.listag{
+
+.listag {
     width: fit-content;
     margin: 10px;
-    line-height: 2.2; 
-    letter-spacing: 5; 
-    word-spacing: 10; 
+    line-height: 2.2;
+    letter-spacing: 5;
+    word-spacing: 10;
     color: map-get($colores, "colorListaGaleria");
 }
-.bordecabanas{
+
+.bordecabanas {
     margin: 5px;
     display: flex;
     border-top: solid 1px;
     border-bottom: solid 1px;
     border-color: map-get($colores , "colorBordeCabanas")
 }
-.textocabanas{
+
+.textocabanas {
     @extend %flexCenter;
     margin: 20px;
     height: 300px;
@@ -42,22 +46,26 @@
     transition: 2s;
     border-radius: 10px;
 }
-.efectocabanas{
+
+.efectocabanas {
     @extend %animaciong;
     @extend %flexCenter;
     background-image: url(../Imagenes/Cabanas/domo1.png);
     @include hoverAnimacion ("../Imagenes/Cabanas/interiori1.png", "../Imagenes/Cabanas/interioir1-2.png")
 }
-.efectocabanas2{
+
+.efectocabanas2 {
     @extend %animaciong;
     @extend %flexCenter;
     background-image: url(../Imagenes/Cabanas/domo2.png);
     @include hoverAnimacion ("../Imagenes/Cabanas/interiori2.png", "../Imagenes/Cabanas/interiori2-2.png")
 }
-.efectocabanas3{
+
+.efectocabanas3 {
     @extend %animaciong;
     @extend %flexCenter;
     background-image: url(../Imagenes/Cabanas/domo3.png);
     @include hoverAnimacion ("../Imagenes/Cabanas/interiori2.png", "../Imagenes/Cabanas/interiori2-2.png")
 }
+
 /* Finaliza Galería */

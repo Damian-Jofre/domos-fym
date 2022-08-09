@@ -1,33 +1,39 @@
 /* Empieza I-C */
 /* Layout I-C */
-.layoutic{
+.layoutic {
     display: grid;
-    grid-template: 
+    grid-template:
         "header" auto
-        "mainic" auto      
-        "footer" auto
-    ; 
+        "mainic" auto "footer" auto
+    ;
 }
+
 /* Epieza Main I-C */
-.mainic{
+.mainic {
     grid-area: mainic;
-    &__section{
+
+    &__section {
         @extend %flexCenter;
     }
-    &__boton{
+
+    &__boton {
         @extend %flexCenter;
         margin: 10px;
     }
 }
-.textoic{
+
+.textoic {
     margin-top: 10px;
     @include texto(1rem)
 }
-.ic img{
+
+.ic img {
     width: 300px;
     margin-bottom: 10px;
 }
-.botonic{
+
+.botonic {
     @include boton (35%, #141314, #52B352, #52B352, #FF0080, #00FF00)
 }
+
 /* Finaliza I-C */

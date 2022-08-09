@@ -13,7 +13,10 @@ body {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .mobileCarrousel {
+.maina__section__texto .pf,
+.maina__section__texto .py,
+.maina__section__texto .pm,
+.maina__section__texto .mas, .mobile, .mobileCarrousel {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -96,7 +99,10 @@ body {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .mobileCarrousel {
+.maina__section__texto .pf,
+.maina__section__texto .py,
+.maina__section__texto .pm,
+.maina__section__texto .mas, .mobile, .mobileCarrousel {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -157,9 +163,6 @@ body {
   .footer__redes {
     align-items: flex-end; }
 
-.texto1 {
-  display: flex; }
-
 .bi {
   color: blue;
   margin: 5px; }
@@ -170,7 +173,10 @@ body {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .mobileCarrousel {
+.maina__section__texto .pf,
+.maina__section__texto .py,
+.maina__section__texto .pm,
+.maina__section__texto .mas, .mobile, .mobileCarrousel {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -253,7 +259,7 @@ body {
   .aside .boton {
     transition: 0.15;
     text-align: center;
-    font-size: 1,3rem;
+    font-size: 1, 3rem;
     font-family: 'Merienda One', cursive;
     border-radius: 10px;
     border: solid 1px;
@@ -275,7 +281,10 @@ body {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .mobileCarrousel {
+.maina__section__texto .pf,
+.maina__section__texto .py,
+.maina__section__texto .pm,
+.maina__section__texto .mas, .mobile, .mobileCarrousel {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -328,7 +337,7 @@ body {
 /* Layout Actividades */
 .layouta {
   display: grid;
-  grid-template: "header" auto "maina" auto         "footer" auto; }
+  grid-template: "header" auto "maina" auto  "footer" auto; }
 
 .maina {
   grid-area: maina;
@@ -409,7 +418,10 @@ body {
     height: 300px;
     margin: 10px;
     margin-top: 40px; }
-    .maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas {
+    .maina__section__texto .pf,
+    .maina__section__texto .py,
+    .maina__section__texto .pm,
+    .maina__section__texto .mas {
       letter-spacing: .2rem;
       word-spacing: 1rem;
       line-height: 2rem;
@@ -439,7 +451,6 @@ body {
       color: #0dcaf0; }
   .mainc__form {
     width: auto;
-    margin: 2px;
     background-color: #B7925C; }
     .mainc__form__form {
       padding: 10px;
@@ -450,7 +461,7 @@ body {
 .botonC {
   transition: 0.15;
   text-align: center;
-  font-size: 1,3rem;
+  font-size: 1, 3rem;
   font-family: 'Merienda One', cursive;
   border-radius: 10px;
   border: solid 1px;
@@ -478,7 +489,7 @@ body {
 /* Layout Filosofía */
 .layoutf {
   display: grid;
-  grid-template: "header" auto "mainf" auto         "footer" auto; }
+  grid-template: "header" auto "mainf" auto "footer" auto; }
 
 .mainf {
   grid-area: mainf; }
@@ -502,7 +513,10 @@ body {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .mobileCarrousel {
+.maina__section__texto .pf,
+.maina__section__texto .py,
+.maina__section__texto .pm,
+.maina__section__texto .mas, .mobile, .mobileCarrousel {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -555,7 +569,7 @@ body {
 /* Layout Galeria */
 .layoutg {
   display: grid;
-  grid-template: "header" auto "maing" auto         "footer" auto; }
+  grid-template: "header" auto "maing" auto "footer" auto; }
 
 /* Empieza Main Galeria*/
 .maing {
@@ -621,7 +635,7 @@ body {
 /* Layout I-C */
 .layoutic {
   display: grid;
-  grid-template: "header" auto "mainic" auto       "footer" auto; }
+  grid-template: "header" auto "mainic" auto "footer" auto; }
 
 /* Epieza Main I-C */
 .mainic {
@@ -642,7 +656,7 @@ body {
 .botonic {
   transition: 0.15;
   text-align: center;
-  font-size: 1,3rem;
+  font-size: 1, 3rem;
   font-family: 'Merienda One', cursive;
   border-radius: 10px;
   border: solid 1px;
@@ -663,7 +677,10 @@ body {
   display: flex;
   justify-content: center; }
 
-.maina__section__texto .pf, .maina__section__texto .py, .maina__section__texto .pm, .maina__section__texto .mas, .mobile, .mobileCarrousel {
+.maina__section__texto .pf,
+.maina__section__texto .py,
+.maina__section__texto .pm,
+.maina__section__texto .mas, .mobile, .mobileCarrousel {
   display: none; }
 
 .maina__section__filosofia:hover + .maina__section__yoga + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .pf, .maina__section__yoga:hover + .maina__section__meditacion + .maina__section__varios + .maina__section__texto .py, .maina__section__meditacion:hover + .maina__section__varios + .maina__section__texto .pm, .maina__section__varios:hover + .maina__section__texto .mas {
@@ -747,12 +764,6 @@ body {
     width: 280px;
     height: 250px; }
   /* Finaliza Main Index */
-  /* Comienza Aside Index */
-  .aside {
-    grid-area: aside; }
-    .aside__section {
-      margin: 20px; }
-  /* Finaliza Aside Index */
   /* Finaliza Index */
   /* Empieza Actividades */
   .maina__info {
@@ -780,10 +791,10 @@ body {
       font-size: 2rem;
       margin: 3px; }
     .mainc__form {
-      width: 100%;
-      margin: 1px; }
+      width: 98%;
+      margin: 0 auto; }
       .mainc__form__form {
-        width: 90%;
+        width: 85%;
         padding: 5px;
         margin: 5px; }
   .centrado {
@@ -807,7 +818,9 @@ body {
   .nombrec {
     margin: 2px;
     padding: 0; }
-  .efectocabanas, .efectocabanas2, .efectocabanas3 {
+  .efectocabanas,
+  .efectocabanas2,
+  .efectocabanas3 {
     width: 250px;
     height: 180px; }
   .textocabanas {

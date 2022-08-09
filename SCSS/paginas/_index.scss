@@ -1,58 +1,59 @@
 /* Empieza Index */
 @import "../base/extends-mixin";
+
 /* Layout Index */
-.layout{    
+.layout {
     display: grid;
-    grid-template: 
+    grid-template:
         "header" auto
         "main" auto
         "aside" auto
         "footer" auto
-        ; 
+    ;
 }
+
 /* Empieza Main Index */
-.main{
+.main {
     grid-area: main;
     @extend %flexCenter;
-    &__section{
+
+    &__section {
         display: flex;
         align-items: center;
-        margin: 20px; 
-        &__texto{
+        margin: 20px;
+
+        &__texto {
             width: 800px;
             margin: 10px
         }
-        &__carrusel{
+
+        &__carrusel {
             width: 400px;
             height: 400px;
         }
     }
 }
-.imgtamano{
+
+.imgtamano {
     border-radius: 5px;
     width: 400px;
     height: 350px;
-} 
+}
+
 /* Finaliza Main Index */
 /* Comienza Aside Index */
-.aside{
+.aside {
     grid-area: aside;
-    &__section{
+
+    &__section {
         margin: 20px;
         @extend %flexCenter;
     }
-.boton{
-    @include boton (50%, #F7F1F4, #52B352, #52B352, #FF0080, #00FF00)
+
+    .boton {
+        @include boton (50%, #F7F1F4, #52B352, #52B352, #FF0080, #00FF00)
+    }
 }
-} 
+
 /* Finaliza Aside Index */
 /* Finaliza Index */
-
-
-
-
-
-
-
-
-

@@ -1,24 +1,23 @@
 @import "../base/extends-mixin";
 
-.footer{
+.footer {
     grid-area: footer;
     background-color: map-get($colores, "colorFooter");
     border-top: solid 2px;
-    border-color: map-get($colores, "colorBordeFooter" );  
+    border-color: map-get($colores, "colorBordeFooter");
 
-    &__section{
+    &__section {
         color: map-get($colores, "colorTexto");
         margin: 5px
-    } 
-    &__redes{
+    }
+
+    &__redes {
         @extend %flexCenter;
         align-items: flex-end;
-    }      
+    }
 }
-.texto1{
-    display: flex;
-}
-.bi{
+
+.bi {
     color: map-get($colores, "colorIconos");
     margin: 5px;
 }
