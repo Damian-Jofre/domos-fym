@@ -23,11 +23,13 @@ body {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  padding: 0.2rem 4rem;
+  width: auto;
+  padding: 1rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
   transition: 3s;
   position: relative;
   align-items: center;
@@ -109,11 +111,13 @@ body {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  padding: 0.2rem 4rem;
+  width: auto;
+  padding: 1rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
   transition: 3s;
   position: relative;
   align-items: center;
@@ -183,11 +187,13 @@ body {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  padding: 0.2rem 4rem;
+  width: auto;
+  padding: 1rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
   transition: 3s;
   position: relative;
   align-items: center;
@@ -291,11 +297,13 @@ body {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  padding: 0.2rem 4rem;
+  width: auto;
+  padding: 1rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
   transition: 3s;
   position: relative;
   align-items: center;
@@ -526,11 +534,13 @@ body {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  padding: 0.2rem 4rem;
+  width: auto;
+  padding: 1rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
   transition: 3s;
   position: relative;
   align-items: center;
@@ -690,11 +700,13 @@ body {
   display: block; }
 
 .maina__section__filosofia, .maina__section__yoga, .maina__section__meditacion, .maina__section__varios {
-  padding: 0.2rem 4rem;
+  width: auto;
+  padding: 1rem 4rem;
   border: solid 5px;
   border-color: #b6873f;
   border-radius: 10px;
   margin: 10px;
+  margin-top: 20px;
   transition: 3s;
   position: relative;
   align-items: center;
